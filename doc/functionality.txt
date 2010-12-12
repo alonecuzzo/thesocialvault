@@ -6,3 +6,7 @@ Functionality list:  Basically a list of missing functionality or functionality 
 3. In-app buys: I have no idea at this moment what we could sell.
 4. Ability to customize or filter feed, by type of post, SN, etc.
 5. 
+
+
+
+*social media sites are like items in a person's wardrobe.  They should be able to mix and match them in a way that they find satisfying.  
