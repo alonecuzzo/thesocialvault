@@ -1,0 +1,93 @@
+Pro's & Con's
+
+
+ =================
+1. Tumblr-site
+    Pro's
+    1. Feed.  I like that there is just a list of items that seems to go on forever, mostly images.
+    2. I like liking stuff.
+    3. I like the actual images that I see.
+    4. I love forever scroll.
+    5. I like the quick scroll to the top.
+    6. I like seeing the names of other people that post things that I'm interested in.
+    7. I like the tags and being able to save tags for later to filter my feed.
+    8. The best part is loosing track of time while liking stuff.
+    9. I like being able to filter posts by my posts so that I can see what others have said/commented or who started following me.
+    
+    Con's
+    1. I hate that I can't sort my list of linked items
+    2. The like button is too small, and shoved in too closely between other buttons.
+    3. The 'link-to' button isn't obvious.  The functionality isn't.
+    4. When a new post in my feed is updated, it should fade in, instead of showing a number.
+    5. The ability to post-nav looks a little consumed by the feed.
+    6. The directory feels weird to me... Not sure why yet.
+    7. Goodies tab is pretty dumb.
+ 
+ 
+=================   
+2. Facebook-site
+    Pro's
+    1. I like clicking on shit and being instantly brought to a person's site, or going to see that picture.
+    2. I love seeing when I have notifications.
+    3. The Home-Profile-Acct nav at the top-right.  It's minimal.
+    4. I like the picture reordering now found in albums.
+    5. I like that clicking takes me through photos.
+    
+    Con's
+    1. Emails from facebook... Of any kind. 
+    2. The side bars are redundant and they clutter the interface.
+    3. I don't like the feed.  The different types of media, make it look too incosistent.  I like how on Flipboard you get variation but in a more consistent way.
+    4. I hate that my recent activity is posted on my wall.
+    5. I don't really like receiving public messages, especially if I'm ignoring someone.
+    6. I just think that a lot of the information is too public.
+    7. I hate that "most recent" button.  Why wouldn't I want the most recent updates in my feed?
+    8. I don't like using the messages, mostly because I'm always getting spammed.
+    9. **I wish that I could create a custom feed; of only updates from people that I choose.
+    10. I hate that the notifications, the evidence of interaction is what really makes me addicted.
+
+
+ =================
+3. Twitter-site
+    Pro's
+    1. Infinite scroll.
+    2. Lack of clutter.
+    3. When you click on a post; I like the video/image etc. drawer that slides out.
+    4. I like the "who you should follow" suggestions.
+    5. I like that my stats are easily accessible.  I like that there's a measure or @ least a sense of measure of my interaction.  What would it look like if this
+        measure was compared to others as easily?  Like, "how does my interaction rate compare to my friends'?"
+    6. I like seeing the most recent trends as well.
+    
+    Cons's
+    1. There should be a notification badge that updates whenever you have a new message, RT, or a response.
+    2. You can't schedule tweets.
+
+
+ =================
+4. Foursquare- site
+    Pro's
+    1. I like the animations.  When ignoring or recieving a request etc.
+    2. I like that you can see a history of your activity.
+    3. **I love the badges.  A good way to encourage participation.  Somewhere near should be the badges of your friends.
+    4. I love that they have a stats tab.
+    
+    Con's
+    1. The stats page is kind of confusing layout-wise.  
+    2. Should be able to see friends' points or rating or number of badges or something like that.
+
+
+ =================
+5. Hootsuite-site    
+    Pro's
+    1. Can schedule tweets.
+    2. Kind of like how it feels like a desktop app with the menus/navigation.
+    
+    Con's
+    1. A lot of the functionality seems hidden or buried in weird places.  Deep within the menu system.
+    2. The menu should be more obvious, like a microsoft word.  The Owl doesn't exactly scream "click on me to see more options!".
+    3. Hate the grey buttons etc.... I hate mostly how this site looks actually now that I think about it.  The scheduling is the only real good part; and maybe seeing your stats/ analytics.
+    
+
+ =================
+6.     
+    
+    

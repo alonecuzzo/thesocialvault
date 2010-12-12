@@ -1,0 +1,8 @@
+Functionality list:  Basically a list of missing functionality or functionality in existing site's apps that we should consider incorporating.
+
+1. Queueing posts: People can post while still offline, all queued posts will be posted once the user signs back on.  Similar to git.
+2. Rating system: Some sort of system that gives users points or followers.  Not sure how that will work exactly, but it should be something that adds to the user's vanity.  Maybe 
+    the more they use the app, or the more that they interact with it, the more points they get or something.  Or maybe there's a likeability rating.
+3. In-app buys: I have no idea at this moment what we could sell.
+4. Ability to customize or filter feed, by type of post, SN, etc.
+5. 
