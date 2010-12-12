@@ -5,7 +5,7 @@ Functionality list:  Basically a list of missing functionality or functionality 
     the more they use the app, or the more that they interact with it, the more points they get or something.  Or maybe there's a likeability rating.
 3. In-app buys: I have no idea at this moment what we could sell.
 4. Ability to customize or filter feed, by type of post, SN, etc.
-5. 
+5. Infinite scroll~ find a way around ipad's picture memory limitation...
 
 
 
