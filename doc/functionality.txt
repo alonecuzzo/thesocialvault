@@ -7,6 +7,7 @@ Functionality list:  Basically a list of missing functionality or functionality 
 4. Ability to customize or filter feed, by type of post, SN, etc.
 5. Infinite scroll~ find a way around ipad's picture memory limitation...
 
+6. Have a barcode or something on the person's cover page.  The cover page exists at the top of the feed, and might have a random photo from the person's profile.
 
 
 *social media sites are like items in a person's wardrobe.  They should be able to mix and match them in a way that they find satisfying.  
