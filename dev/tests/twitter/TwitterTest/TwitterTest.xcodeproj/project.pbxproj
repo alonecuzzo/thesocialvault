@@ -33,6 +33,7 @@
 		88C5063C12BCB8F4004BB9F8 /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5062A12BCB8F4004BB9F8 /* SA_OAuthTwitterController.m */; };
 		88C5063D12BCB8F4004BB9F8 /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5062C12BCB8F4004BB9F8 /* SA_OAuthTwitterEngine.m */; };
 		88D4A48212BCBAA100A8FE69 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D4A48112BCBAA100A8FE69 /* libxml2.dylib */; };
+		88D4A4A312BCC5EC00A8FE69 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4A4A212BCC5EC00A8FE69 /* Tweet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +102,8 @@
 		88C5062B12BCB8F4004BB9F8 /* SA_OAuthTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_OAuthTwitterEngine.h; sourceTree = "<group>"; };
 		88C5062C12BCB8F4004BB9F8 /* SA_OAuthTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SA_OAuthTwitterEngine.m; sourceTree = "<group>"; };
 		88D4A48112BCBAA100A8FE69 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		88D4A4A112BCC5EC00A8FE69 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		88D4A4A212BCC5EC00A8FE69 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TwitterTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TwitterTest-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +130,8 @@
 				1D3623250D0F684500981E51 /* TwitterTestAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* TwitterTestViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* TwitterTestViewController.m */,
+				88D4A4A112BCC5EC00A8FE69 /* Tweet.h */,
+				88D4A4A212BCC5EC00A8FE69 /* Tweet.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				88C5063A12BCB8F4004BB9F8 /* NSString+UUID.m in Sources */,
 				88C5063C12BCB8F4004BB9F8 /* SA_OAuthTwitterController.m in Sources */,
 				88C5063D12BCB8F4004BB9F8 /* SA_OAuthTwitterEngine.m in Sources */,
+				88D4A4A312BCC5EC00A8FE69 /* Tweet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

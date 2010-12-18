@@ -7,6 +7,7 @@
 //
 
 #import "TwitterTestViewController.h"
+#import "Tweet.h"
 
 @implementation TwitterTestViewController
 
@@ -35,7 +36,48 @@
     [super viewDidLoad];
 }
 */
+#pragma mark MGTwitterEngineDelegate Methods
 
+- (void)requestSucceeded:(NSString *)connectionIdentifier {
+	
+	NSLog(@"Request Suceeded: %@", connectionIdentifier);
+}
+
+- (void)statusesReceived:(NSArray *)statuses forRequest:(NSString *)connectionIdentifier {
+	
+	tweets = [[NSMutableArray alloc] init];
+	
+	for(NSDictionary *d in statuses) {
+		
+		NSLog(@"See dictionary: %@", d);
+		
+		Tweet *tweet = [[Tweet alloc] initWithTweetDictionary:d];
+		[tweets addObject:tweet];
+		[tweet release];
+	}
+	
+	[tableView reloadData];
+}
+
+- (void)receivedObject:(NSDictionary *)dictionary forRequest:(NSString *)connectionIdentifier {
+	
+	NSLog(@"Recieved Object: %@", dictionary);
+}
+
+- (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)connectionIdentifier {
+	
+	NSLog(@"Direct Messages Received: %@", messages);
+}
+
+- (void)userInfoReceived:(NSArray *)userInfo forRequest:(NSString *)connectionIdentifier {
+	
+	NSLog(@"User Info Received: %@", userInfo);
+}
+
+- (void)miscInfoReceived:(NSArray *)miscInfo forRequest:(NSString *)connectionIdentifier {
+	
+	NSLog(@"Misc Info Received: %@", miscInfo);
+}
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -59,13 +101,48 @@
 	}	
 }
 
+#pragma mark UITableViewDataSource Methods 
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	
+	return [tweets count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	NSString *identifier = @"cell";
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+	
+	if(!cell) {
+		
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewStyleGrouped reuseIdentifier:identifier];
+		//[cell setBackgroundColor:[UIColor clearColor]];
+	}
+	
+	[cell.textLabel setNumberOfLines:7];
+	[cell.textLabel setText:[(Tweet*)[tweets objectAtIndex:indexPath.row] tweet]];
+	
+	return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	return 150;
+}
+
+
+#pragma mark IBActions
 
 -(IBAction)updateStream:(id)sender {
 	
+	[_engine getFollowedTimelineSinceID:1 startingAtPage:1 count:100];
 }
 
 -(IBAction)tweet:(id)sender {
 	
+	[textField resignFirstResponder];
+	[_engine sendUpdate:[textField text]];
+	[self updateStream:nil];
 }
 
 #pragma mark SA_OAuthTwitterEngineDelegate
