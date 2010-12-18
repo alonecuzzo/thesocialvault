@@ -7,10 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SA_OAuthTwitterEngine.h"
+#import "SA_OAuthTwitterController.h"
 
 @interface TwitterTestViewController : UIViewController {
-
+	
+	IBOutlet UITableView *tableView;
+	IBOutlet UITextField *textField;
+	
+	SA_OAuthTwitterEngine *_engine;
+	NSMutableArray *tweets;
 }
+
+@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, retain) IBOutlet UITextField *textField;
+
+-(IBAction)updateStream:(id)sender;
+-(IBAction)tweet:(id)sender;
 
 @end
 

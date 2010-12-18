@@ -42,6 +42,70 @@
     return YES;
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+	if(_engine) return;
+	
+	_engine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate:self];
+	_engine.consumerKey = @"lF5Y33zY1JPGhDiM6RZJw";
+	_engine.consumerSecret = @"XW46AO4cQ0qde6f8A9HyYqy1fAsVITBXINFFgMLVU";
+	
+	UIViewController *controller = [SA_OAuthTwitterController controllerToEnterCredentialsWithTwitterEngine: _engine delegate: self];
+	
+	if (controller)
+		[self presentModalViewController: controller animated: YES];
+	else {
+		tweets = [[NSMutableArray alloc] init];
+		[self updateStream:nil];
+	}	
+}
+
+
+-(IBAction)updateStream:(id)sender {
+	
+}
+
+-(IBAction)tweet:(id)sender {
+	
+}
+
+#pragma mark SA_OAuthTwitterEngineDelegate
+
+- (void) storeCachedTwitterOAuthData: (NSString *) data forUsername: (NSString *) username {
+	
+	NSUserDefaults	*defaults = [NSUserDefaults standardUserDefaults];
+	
+	[defaults setObject: data forKey: @"authData"];
+	[defaults synchronize];
+}
+
+- (NSString *) cachedTwitterOAuthDataForUsername: (NSString *) username {
+	
+	return [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"];
+}
+
+#pragma mark SA_OAuthTwitterController Delegate
+
+- (void) OAuthTwitterController: (SA_OAuthTwitterController *) controller authenticatedWithUsername: (NSString *) username {
+	
+	NSLog(@"Authenticated with user %@", username);
+	
+	tweets = [[NSMutableArray alloc] init];
+	[self updateStream:nil];
+}
+
+- (void) OAuthTwitterControllerFailed: (SA_OAuthTwitterController *) controller {
+	
+	NSLog(@"Authentication Failure");
+}
+
+- (void) OAuthTwitterControllerCanceled: (SA_OAuthTwitterController *) controller {
+	
+	NSLog(@"Authentication Canceled");
+}
+
+
+
+
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
