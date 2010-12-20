@@ -1,0 +1,31 @@
+In file included from /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:9:
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.h:10:34: error: SA_OAuthTwitterEngine.h: No such file or directory
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.h:11:38: error: SA_OAuthTwitterController.h: No such file or directory
+In file included from /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:9:
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.h:17: error: expected specifier-qualifier-list before 'SA_OAuthTwitterEngine'
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:10:2: error: invalid preprocessing directive #imprt
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m: In function '-[TwitterFeedView statusesReceived:forRequest:]':
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:54: error: 'Tweet' undeclared (first use in this function)
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:54: error: (Each undeclared identifier is reported only once
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:54: error: for each function it appears in.)
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:54: error: 'tweet' undeclared (first use in this function)
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m: In function '-[TwitterFeedView viewDidAppear:]':
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:88: error: '_engine' undeclared (first use in this function)
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:90: error: 'SA_OAuthTwitterEngine' undeclared (first use in this function)
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:94: error: 'SA_OAuthTwitterController' undeclared (first use in this function)
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m: In function '-[TwitterFeedView tableView:cellForRowAtIndexPath:]':
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:114: warning: local declaration of 'tableView' hides instance variable
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:123: error: 'Tweet' undeclared (first use in this function)
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:123: error: expected expression before ')' token
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m: In function '-[TwitterFeedView updateStream:]':
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:138: error: '_engine' undeclared (first use in this function)
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m: In function '-[TwitterFeedView tweet:]':
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:144: error: '_engine' undeclared (first use in this function)
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m: At top level:
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:165: error: expected ')' before 'SA_OAuthTwitterController'
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:173: error: expected ')' before 'SA_OAuthTwitterController'
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:178: error: expected ')' before 'SA_OAuthTwitterController'
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:203: warning: property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:203: warning: property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:203: warning: property 'textField' requires method '-textField' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m:203: warning: property 'textField' requires the method 'setTextField:' to be defined - use @synthesize, @dynamic or provide a method implementation
