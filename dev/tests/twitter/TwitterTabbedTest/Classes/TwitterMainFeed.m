@@ -8,6 +8,7 @@
 
 #import "TwitterMainFeed.h"
 #import "Tweet.h"
+#import "TwitterEngineInstance.h"
 
 @implementation TwitterMainFeed
 
@@ -48,7 +49,7 @@
 	
 	for(NSDictionary *d in statuses) {
 		
-		NSLog(@"See dictionary: %@", d);
+		//NSLog(@"See dictionary: %@", d);
 		
 		Tweet *tweet = [[Tweet alloc] initWithTweetDictionary:d];
 		[tweets addObject:tweet];
@@ -86,15 +87,22 @@
 -(void)viewDidAppear:(BOOL)animated{
 	if(_engine) return;
 	
-	_engine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate:self];
-	_engine.consumerKey = @"lF5Y33zY1JPGhDiM6RZJw";
-	_engine.consumerSecret = @"XW46AO4cQ0qde6f8A9HyYqy1fAsVITBXINFFgMLVU";
+	_engine = [[TwitterEngineInstance sharedInstance:self] myEngine];
+	
+	//_engine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate:self];
+//	_engine.consumerKey = @"lF5Y33zY1JPGhDiM6RZJw";
+//	_engine.consumerSecret = @"XW46AO4cQ0qde6f8A9HyYqy1fAsVITBXINFFgMLVU";
+	
+	//NSLog(@"my engine from the feed is: %@", _engine);
+	//NSLog(@"my string is: %@", [[TwitterEngineInstance sharedInstance:self] myString]);
+	NSLog(@"my engine from the feed is: %@", _engine);
 	
 	UIViewController *controller = [SA_OAuthTwitterController controllerToEnterCredentialsWithTwitterEngine: _engine delegate: self];
 	
-	if (controller)
+	if (controller){
+		NSLog(@"calling the modal view");
 		[self presentModalViewController: controller animated: YES];
-	else {
+	} else {
 		tweets = [[NSMutableArray alloc] init];
 		[self updateStream:nil];
 	}	

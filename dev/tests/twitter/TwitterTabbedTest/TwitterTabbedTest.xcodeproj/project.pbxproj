@@ -16,6 +16,7 @@
 		88102B8012BF466300E659FA /* DirectMessagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */; };
 		88102B8112BF466300E659FA /* DirectMessagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88102B7F12BF466300E659FA /* DirectMessagesView.xib */; };
 		88102B9A12BF47E900E659FA /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 88102B9912BF47E900E659FA /* Tweet.m */; };
+		88102BA012BF4AA000E659FA /* TwitterEngineInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */; };
 		88AC666812BF3F6100803A1C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AC666712BF3F6100803A1C /* libxml2.dylib */; };
 		88AC66A212BF3F7000803A1C /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AC667D12BF3F7000803A1C /* MGTwitterEngine.m */; };
 		88AC66A312BF3F7000803A1C /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AC668112BF3F7000803A1C /* MGTwitterHTTPURLConnection.m */; };
@@ -53,6 +54,8 @@
 		88102B7F12BF466300E659FA /* DirectMessagesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DirectMessagesView.xib; path = Classes/DirectMessagesView.xib; sourceTree = "<group>"; };
 		88102B9812BF47E900E659FA /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
 		88102B9912BF47E900E659FA /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		88102B9E12BF4AA000E659FA /* TwitterEngineInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterEngineInstance.h; sourceTree = "<group>"; };
+		88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterEngineInstance.m; sourceTree = "<group>"; };
 		88AC666712BF3F6100803A1C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		88AC666C12BF3F7000803A1C /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
 		88AC666D12BF3F7000803A1C /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				88102B7E12BF466300E659FA /* DirectMessagesView.m */,
 				88102B9812BF47E900E659FA /* Tweet.h */,
 				88102B9912BF47E900E659FA /* Tweet.m */,
+				88102B9E12BF4AA000E659FA /* TwitterEngineInstance.h */,
+				88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				88AC66C912BF424500803A1C /* TwitterMainFeed.m in Sources */,
 				88102B8012BF466300E659FA /* DirectMessagesView.m in Sources */,
 				88102B9A12BF47E900E659FA /* Tweet.m in Sources */,
+				88102BA012BF4AA000E659FA /* TwitterEngineInstance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
