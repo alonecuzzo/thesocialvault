@@ -66,7 +66,7 @@
 
 - (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)connectionIdentifier {
 	
-	NSLog(@"Direct Messages Received: %@", messages);
+	//NSLog(@"Direct Messages Received: %@", messages);
 }
 
 - (void)userInfoReceived:(NSArray *)userInfo forRequest:(NSString *)connectionIdentifier {

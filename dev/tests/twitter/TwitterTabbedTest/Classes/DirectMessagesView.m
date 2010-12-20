@@ -29,7 +29,9 @@
 	
 	//NSLog(@"%@",[[TwitterEngineInstance sharedInstance:self] getEngine:self]);
 	
-	if(_engine) return;
+	if(_engine){
+		[_engine release];
+	}
 	
 	_engine = [[TwitterEngineInstance sharedInstance:self] myEngine];
 	
@@ -53,9 +55,14 @@
 	for(NSDictionary *d in messages) {
 		NSLog(@"Direct Messages Received: %@", messages);
 		DirectMessage *dm = [[DirectMessage alloc] initWithMessageDictionary:d];
-		[messages addObject:dm];
+		[_messages addObject:dm];
 		[dm release];
+		//NSLog(@"number of messages: %d", [_messages count]);
 	}
+	
+	
+	
+	[tableView reloadData];
 }
 
 
@@ -66,6 +73,7 @@
 
 -(NSString *)refreshMessages:(id)sender {
 	[_engine getDirectMessagesSinceID:1 startingAtPage:1];
+	//NSLog(@"number of messages: %d", [_messages count]);
 }
 
 
@@ -89,6 +97,8 @@
 	
 	[cell.textLabel setNumberOfLines:7];
 	[cell.textLabel setText:[(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]];
+	
+	NSLog(@"message: %@", [(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]);
 	
 	return cell;
 }
