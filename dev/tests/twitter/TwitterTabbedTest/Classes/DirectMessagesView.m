@@ -7,7 +7,7 @@
 //
 
 #import "DirectMessagesView.h"
-
+#import "TwitterEngineInstance.h"
 
 @implementation DirectMessagesView
 
@@ -22,12 +22,16 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	
+	NSLog(@"%@",[[TwitterEngineInstance sharedInstance:self] getEngine:self]);
+	
+	
     [super viewDidLoad];
 }
-*/
+
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

@@ -15,6 +15,8 @@
 
 static TwitterEngineInstance *myInstance = nil;
 static NSObject *myDel = nil;
+static NSString *consumerKey = @"lF5Y33zY1JPGhDiM6RZJw";
+static NSString *consumerSecret = @"XW46AO4cQ0qde6f8A9HyYqy1fAsVITBXINFFgMLVU";
 
 +(TwitterEngineInstance*)sharedInstance:(NSObject *)myDelegate {
 	
@@ -34,17 +36,26 @@ static NSObject *myDel = nil;
 {
 	@synchronized(self) {
 		[super init];	
-		//currentStation = [[NSDecimalNumber alloc] initWithString:@"0.0"];
-		NSLog(@"initializing");
 		myEngine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate:myDel];
-		myEngine.consumerKey = @"lF5Y33zY1JPGhDiM6RZJw";
-		myEngine.consumerSecret = @"XW46AO4cQ0qde6f8A9HyYqy1fAsVITBXINFFgMLVU";
+		myEngine.consumerKey = consumerKey;
+		myEngine.consumerSecret = consumerSecret;
 		return self;
 	}
 }
 
--(SA_OAuthTwitterEngine*)getEngine{
+
+-(SA_OAuthTwitterEngine*)getEngine:(NSObject *)myDelegate{
 	@synchronized(self){
+		NSLog(@"new delegate: %@", myDelegate);
+		NSLog(@"old delegate: %@", myDel);
+		
+		[myDel release];
+		myDel = myDelegate;
+		[myEngine release];
+		myEngine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate:myDel];
+		myEngine.consumerKey = consumerKey;
+		myEngine.consumerSecret = consumerSecret;
+		
 		return myEngine;
 	}
 }

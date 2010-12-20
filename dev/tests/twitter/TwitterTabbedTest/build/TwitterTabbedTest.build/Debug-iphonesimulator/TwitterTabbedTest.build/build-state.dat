@@ -1,7 +1,7 @@
 TTwitterTabbedTest
 v7
 r0
-t314535435.341132
+t314536577.159115
 cCheck dependencies
 cProcessInfoPlistFile /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/Info.plist TwitterTabbedTest-Info.plist
 cCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/MainWindow.xib
@@ -450,10 +450,11 @@ s236
 i<UIKit/UIKit.h>
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m
-c000000004D0F0EE3000000000000052B
-t1292832483
-s1323
+c000000004D0F395F000000000000059A
+t1292843359
+s1434
 i"DirectMessagesView.h"
+i"TwitterEngineInstance.h"
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.xib
 c000000004D0F0EE3000000000000509F
@@ -505,9 +506,9 @@ i"SA_OAuthTwitterEngine.h"
 i"SA_OAuthTwitterController.h"
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterEngineInstance.m
-c000000004D0F368A0000000000000425
-t1292842634
-s1061
+c000000004D0F3AF6000000000000056B
+t1292843766
+s1387
 i"TwitterEngineInstance.h"
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.h
@@ -590,11 +591,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app
-t1292842635
+t1292843777
 s340
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app.dSYM
-t1292842635
+t1292843777
 s102
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/DirectMessagesView.nib
@@ -630,12 +631,12 @@ t1292832339
 s2371
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest
-t1292842635
-s205272
+t1292843777
+s205508
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/DirectMessagesView.o
-t1292832522
-s38224
+t1292843362
+s40960
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/FirstViewController.o
 t1292831937
@@ -714,8 +715,8 @@ t1292832908
 s8324
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/TwitterEngineInstance.o
-t1292842634
-s13052
+t1292843777
+s14192
 
 N/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/TwitterFeedView.o
 t2
@@ -765,11 +766,11 @@ s1238
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies314535434#314535434#0(0"0(0#1#0"8628559616#0"0#
+lSLF07#2@18"Check dependencies314536576#314536577#0(0"0(0#1#0"8652435744#0"0#
 
 CCompileC build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/DirectMessagesView.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314525322.424600
-e314525323.063533
+s314536162.124710
+e314536162.634132
 r1
 xCompileC
 xbuild/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/DirectMessagesView.o
@@ -778,7 +779,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@107"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m314525322#314525323#0(0"0(0#0#99"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m8601452128#2608"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterTabbedTest_Prefix-dqdujzxbbkriardmirnskqlwcygn/TwitterTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/DirectMessagesView.o0#
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m: In function '-[DirectMessagesView viewDidLoad]':
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m:29: warning: 'TwitterEngineInstance' may not respond to '-getEngine:'
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m:29: warning: (Messages without a matching method signature
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m:29: warning: will be assumed to return 'id' and accept
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m:29: warning: '...' as arguments.)
+lSLF07#2@107"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m314536162#314536162#0(768"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m: In function '-[DirectMessagesView viewDidLoad]':/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m:29: warning: 'TwitterEngineInstance' may not respond to '-getEngine:'/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m:29: warning: (Messages without a matching method signature/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m:29: warning: will be assumed to return 'id' and accept/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m:29: warning: '...' as arguments.)2(22@56"'TwitterEngineInstance' may not respond to '-getEngine:'314536162#150#170#0(6@99"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m314536159#29#0#29#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)314536162#320#159#0(6@99"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m314536159#29#0#29#0#0"0(0#0#99"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m8618737024#2608"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterTabbedTest_Prefix-dqdujzxbbkriardmirnskqlwcygn/TwitterTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/DirectMessagesView.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/DirectMessagesView.o0#
 
 CCompileC build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/FirstViewController.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s314524737.871952
@@ -1063,8 +1069,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@94"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/Tweet.m314525708#314525708#0(0"0(0#0#86"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/Tweet.m8599623712#2582"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterTabbedTest_Prefix-dqdujzxbbkriardmirnskqlwcygn/TwitterTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/Tweet.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/Tweet.o0#
 
 CCompileC build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/TwitterEngineInstance.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterEngineInstance.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314535434.655085
-e314535434.916093
+s314536576.968889
+e314536577.083995
 r1
 xCompileC
 xbuild/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/TwitterEngineInstance.o
@@ -1073,7 +1079,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@110"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterEngineInstance.m314535434#314535434#0(0"0(0#0#102"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterEngineInstance.m8616460832#2614"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterTabbedTest_Prefix-dqdujzxbbkriardmirnskqlwcygn/TwitterTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterEngineInstance.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/TwitterEngineInstance.o0#
+lSLF07#2@110"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterEngineInstance.m314536576#314536577#0(0"0(0#0#102"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterEngineInstance.m8625009152#2614"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterTabbedTest_Prefix-dqdujzxbbkriardmirnskqlwcygn/TwitterTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterEngineInstance.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/TwitterEngineInstance.o0#
 
 CCompileC build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/TwitterFeedView.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/Classes/TwitterFeedView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -1180,23 +1186,23 @@ CCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTe
 r0
 
 CGenerateDSYMFile /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app.dSYM /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest
-s314535435.169366
-e314535435.338626
+s314536577.126560
+e314536577.156850
 r1
 xGenerateDSYMFile
 x/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app.dSYM
 x/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest
-lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/TwitterTabbedTest.app.dSYM build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest314535435#314535435#0(0"0(0#0#138"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest8610019296#509"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app.dSYM0#
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/TwitterTabbedTest.app.dSYM build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest314536577#314536577#0(0"0(0#0#138"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest8632817760#509"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app.dSYM0#
 
 CLd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest normal i386
-s314535434.916174
-e314535435.169195
+s314536577.084088
+e314536577.126460
 r1
 xLd
 x/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest
 xnormal
 xi386
-lSLF07#2@143"Link /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest314535434#314535435#0(0"0(0#0#0"8620090048#1261"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -L/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/../../../../../../Downloads/Twitter+OAuth/SAOAuthTwitterEngine -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -filelist /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/TwitterTabbedTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2 -lOAuth -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest0#
+lSLF07#2@143"Link /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest314536577#314536577#0(0"0(0#0#0"8633844832#1261"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -L/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/../../../../../../Downloads/Twitter+OAuth/SAOAuthTwitterEngine -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -filelist /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/Objects-normal/i386/TwitterTabbedTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2 -lOAuth -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/TwitterTabbedTest0#
 
 CProcessInfoPlistFile /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app/Info.plist TwitterTabbedTest-Info.plist
 s314523451.930050
@@ -1234,10 +1240,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@39"Precompile TwitterTabbedTest_Prefix.pch314524737#314524737#0(0"0(0#0#99"/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/TwitterTabbedTest_Prefix.pch8600375200#2422"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/TwitterTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/TwitterTabbedTest.build/Debug-iphonesimulator/TwitterTabbedTest.build/DerivedSources -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/TwitterTabbedTest_Prefix.pch -o /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterTabbedTest_Prefix-dqdujzxbbkriardmirnskqlwcygn/TwitterTabbedTest_Prefix.pch.gch0#
 
 CTouch /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app
-s314535435.338718
-e314535435.341104
+s314536577.156936
+e314536577.159092
 r1
 xTouch
 x/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app
-lSLF07#2@126"Touch /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app314535435#314535435#0(0"0(0#0#0"8646070368#352"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app0#
+lSLF07#2@126"Touch /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app314536577#314536577#0(0"0(0#0#0"8628927040#352"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/build/Debug-iphonesimulator/TwitterTabbedTest.app0#
 
