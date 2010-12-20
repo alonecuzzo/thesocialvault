@@ -46,8 +46,6 @@ static NSString *consumerSecret = @"XW46AO4cQ0qde6f8A9HyYqy1fAsVITBXINFFgMLVU";
 
 -(SA_OAuthTwitterEngine*)getEngine:(NSObject *)myDelegate{
 	@synchronized(self){
-		NSLog(@"new delegate: %@", myDelegate);
-		NSLog(@"old delegate: %@", myDel);
 		
 		[myDel release];
 		myDel = myDelegate;
