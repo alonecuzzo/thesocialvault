@@ -12,11 +12,13 @@
 @implementation TwitterEngineInstance
 
 @synthesize myEngine;
-@synthesize myString;
 
 static TwitterEngineInstance *myInstance = nil;
+static NSObject *myDel = nil;
 
 +(TwitterEngineInstance*)sharedInstance:(NSObject *)myDelegate {
+	
+	myDel = myDelegate;
 	
 	@synchronized([TwitterEngineInstance class]){
 		//check to see if there's already an instance
@@ -33,18 +35,11 @@ static TwitterEngineInstance *myInstance = nil;
 	@synchronized(self) {
 		[super init];	
 		//currentStation = [[NSDecimalNumber alloc] initWithString:@"0.0"];
-		myString = @"hey there";
 		NSLog(@"initializing");
-		myEngine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate:self];
+		myEngine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate:myDel];
 		myEngine.consumerKey = @"lF5Y33zY1JPGhDiM6RZJw";
 		myEngine.consumerSecret = @"XW46AO4cQ0qde6f8A9HyYqy1fAsVITBXINFFgMLVU";
 		return self;
-	}
-}
-
--(NSString*)getMyString{
-	@synchronized(self){
-		return myString;
 	}
 }
 

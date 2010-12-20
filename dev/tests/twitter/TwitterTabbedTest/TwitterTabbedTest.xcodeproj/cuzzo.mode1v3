@@ -276,7 +276,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>10</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TwitterMainFeed.m</string>
+								<string>TwitterEngineInstance.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TwitterMainFeed.m</string>
+										<string>TwitterEngineInstance.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>88102C9812BF6ADF00E659FA</string>
+										<string>88102CC212BF6E1800E659FA</string>
 										<key>history</key>
 										<array>
 											<string>88AC66CE12BF425900803A1C</string>
@@ -341,13 +341,13 @@
 											<string>88102BF412BF5AE200E659FA</string>
 											<string>88102C1912BF5D1200E659FA</string>
 											<string>88102C1A12BF5D1200E659FA</string>
-											<string>88102C3112BF5DD900E659FA</string>
-											<string>88102C7B12BF686900E659FA</string>
-											<string>88102C8A12BF6A2000E659FA</string>
-											<string>88102C9212BF6ABF00E659FA</string>
-											<string>88102C9312BF6ABF00E659FA</string>
 											<string>88102C9412BF6ABF00E659FA</string>
-											<string>88102C8912BF6A2000E659FA</string>
+											<string>88102C9B12BF6C7800E659FA</string>
+											<string>88102C9C12BF6C7800E659FA</string>
+											<string>88102C9D12BF6C7800E659FA</string>
+											<string>88102C9E12BF6C7800E659FA</string>
+											<string>88102CBD12BF6E0B00E659FA</string>
+											<string>88102CBE12BF6E0B00E659FA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

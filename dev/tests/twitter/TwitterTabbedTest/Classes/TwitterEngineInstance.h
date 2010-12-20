@@ -13,11 +13,9 @@
 
 @interface TwitterEngineInstance : NSObject {
 	SA_OAuthTwitterEngine *myEngine;
-	NSString *myString;
 }
 
 @property (nonatomic, retain) SA_OAuthTwitterEngine *myEngine;
-@property (nonatomic, retain) NSString *myString;
 
 +(TwitterEngineInstance*)sharedInstance:(NSObject*)myDelegate;
 
