@@ -49,7 +49,8 @@ static NSString *consumerSecret = @"XW46AO4cQ0qde6f8A9HyYqy1fAsVITBXINFFgMLVU";
 		
 		[myDel release];
 		myDel = myDelegate;
-		[myEngine release];
+		NSLog(@"my new delegate: %@", myDel);
+		[myEngine dealloc];
 		myEngine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate:myDel];
 		myEngine.consumerKey = consumerKey;
 		myEngine.consumerSecret = consumerSecret;

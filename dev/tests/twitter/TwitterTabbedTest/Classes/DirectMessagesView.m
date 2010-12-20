@@ -33,7 +33,7 @@
 		[_engine release];
 	}
 	
-	_engine = [[TwitterEngineInstance sharedInstance:self] myEngine];
+	_engine = [[TwitterEngineInstance sharedInstance:self] getEngine:self];
 	
 	UIViewController *controller = [SA_OAuthTwitterController controllerToEnterCredentialsWithTwitterEngine: _engine delegate: self];
 	
