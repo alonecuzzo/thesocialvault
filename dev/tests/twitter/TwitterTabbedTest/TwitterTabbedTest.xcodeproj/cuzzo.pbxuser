@@ -314,6 +314,9 @@
 			88102D2812BF9C4000E659FA /* PBXTextBookmark */ = 88102D2812BF9C4000E659FA /* PBXTextBookmark */;
 			88102D3512BF9CB500E659FA /* XCBuildMessageTextBookmark */ = 88102D3512BF9CB500E659FA /* XCBuildMessageTextBookmark */;
 			88102D3612BF9CB500E659FA /* PBXTextBookmark */ = 88102D3612BF9CB500E659FA /* PBXTextBookmark */;
+			88102D3712BF9DCE00E659FA /* PBXTextBookmark */ = 88102D3712BF9DCE00E659FA /* PBXTextBookmark */;
+			88102D3812BF9DCE00E659FA /* XCBuildMessageTextBookmark */ = 88102D3812BF9DCE00E659FA /* XCBuildMessageTextBookmark */;
+			88102D3912BF9DCE00E659FA /* PBXTextBookmark */ = 88102D3912BF9DCE00E659FA /* PBXTextBookmark */;
 			88AC66CC12BF425900803A1C = 88AC66CC12BF425900803A1C /* PBXTextBookmark */;
 			88AC66CD12BF425900803A1C = 88AC66CD12BF425900803A1C /* PBXTextBookmark */;
 			88AC66CE12BF425900803A1C = 88AC66CE12BF425900803A1C /* PBXTextBookmark */;
@@ -372,9 +375,9 @@
 	};
 	88102B7E12BF466300E659FA /* DirectMessagesView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1599}}";
-			sepNavSelRange = "{1573, 0}";
-			sepNavVisRange = "{970, 1073}";
+			sepNavIntBoundsRect = "{{0, 0}, {896, 1651}}";
+			sepNavSelRange = "{2552, 0}";
+			sepNavVisRange = "{2311, 306}";
 		};
 	};
 	88102B8312BF466F00E659FA /* PBXTextBookmark */ = {
@@ -2318,6 +2321,35 @@
 		rType = 0;
 		vrLen = 1073;
 		vrLoc = 970;
+	};
+	88102D3712BF9DCE00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
+		name = "TwitterEngineInstance.m: 14";
+		rLen = 0;
+		rLoc = 249;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 153;
+	};
+	88102D3812BF9DCE00E659FA /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'messages' undeclared (first use in this function)";
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 90;
+		rType = 1;
+	};
+	88102D3912BF9DCE00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 91";
+		rLen = 0;
+		rLoc = 2552;
+		rType = 0;
+		vrLen = 306;
+		vrLoc = 2311;
 	};
 	88AC664612BF3F3300803A1C /* TwitterTabbedTest */ = {
 		isa = PBXExecutable;
