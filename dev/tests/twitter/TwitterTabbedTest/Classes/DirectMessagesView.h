@@ -14,13 +14,15 @@
 @interface DirectMessagesView : UIViewController {
 	IBOutlet UITableView *tableView;
 	IBOutlet UITextField *textField;
+	IBOutlet UITextField *userName;
 	
 	SA_OAuthTwitterEngine *_engine;
-	NSMutableArray *tweets;
+	NSMutableArray *_messages;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) IBOutlet UITextField *textField;
+@property (nonatomic, retain) IBOutlet UITextField *userName;
 
 -(IBAction)sendMessage:(id)sender;
 -(IBAction)refreshMessages:(id)sender;

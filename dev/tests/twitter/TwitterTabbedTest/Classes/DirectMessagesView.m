@@ -8,6 +8,7 @@
 
 #import "DirectMessagesView.h"
 #import "TwitterEngineInstance.h"
+#import "DirectMessage.h"
 
 @implementation DirectMessagesView
 
@@ -26,12 +27,76 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
-	NSLog(@"%@",[[TwitterEngineInstance sharedInstance:self] getEngine:self]);
+	//NSLog(@"%@",[[TwitterEngineInstance sharedInstance:self] getEngine:self]);
 	
+	if(_engine) return;
+	
+	_engine = [[TwitterEngineInstance sharedInstance:self] myEngine];
+	
+	UIViewController *controller = [SA_OAuthTwitterController controllerToEnterCredentialsWithTwitterEngine: _engine delegate: self];
+	
+	if (controller){
+		NSLog(@"calling the modal view");
+		[self presentModalViewController: controller animated: YES];
+	} else {
+		_messages = [[NSMutableArray alloc] init];
+		[self refreshMessages:nil];
+	}	
 	
     [super viewDidLoad];
 }
 
+
+- (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)connectionIdentifier {
+	_messages = [[NSMutableArray alloc] init];
+	
+	for(NSDictionary *d in messages) {
+		NSLog(@"Direct Messages Received: %@", messages);
+		DirectMessage *dm = [[DirectMessage alloc] initWithMessageDictionary:d];
+		[messages addObject:dm];
+		[dm release];
+	}
+}
+
+
+-(NSString *)sendMessage:(id)sender {
+	[_engine sendDirectMessage:textField.text to:userName.text];	
+}
+
+
+-(NSString *)refreshMessages:(id)sender {
+	[_engine getDirectMessagesSinceID:1 startingAtPage:1];
+}
+
+
+#pragma mark UITableViewDataSource Methods 
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	
+	return [_messages count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	NSString *identifier = @"cell";
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+	
+	if(!cell) {
+		
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewStyleGrouped reuseIdentifier:identifier];
+		[cell setBackgroundColor:[UIColor clearColor]];
+	}
+	
+	[cell.textLabel setNumberOfLines:7];
+	[cell.textLabel setText:[(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]];
+	
+	return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	return 150;
+}
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

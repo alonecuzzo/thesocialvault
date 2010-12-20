@@ -89,14 +89,6 @@
 	
 	_engine = [[TwitterEngineInstance sharedInstance:self] myEngine];
 	
-	//_engine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate:self];
-//	_engine.consumerKey = @"lF5Y33zY1JPGhDiM6RZJw";
-//	_engine.consumerSecret = @"XW46AO4cQ0qde6f8A9HyYqy1fAsVITBXINFFgMLVU";
-	
-	//NSLog(@"my engine from the feed is: %@", _engine);
-	//NSLog(@"my string is: %@", [[TwitterEngineInstance sharedInstance:self] myString]);
-	NSLog(@"my engine from the feed is: %@", _engine);
-	
 	UIViewController *controller = [SA_OAuthTwitterController controllerToEnterCredentialsWithTwitterEngine: _engine delegate: self];
 	
 	if (controller){

@@ -267,6 +267,7 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>88AC666912BF3F7000803A1C</string>
+								<string>88AC667B12BF3F7000803A1C</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
@@ -276,7 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -319,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DirectMessagesView.h</string>
+								<string>DirectMessagesView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,27 +328,30 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>DirectMessagesView.h</string>
+										<string>DirectMessagesView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>88102CEA12BF91A400E659FA</string>
+										<string>88102D3612BF9CB500E659FA</string>
 										<key>history</key>
 										<array>
 											<string>88AC66CE12BF425900803A1C</string>
 											<string>88AC66E012BF434100803A1C</string>
 											<string>88102BEC12BF5AE200E659FA</string>
 											<string>88102BEF12BF5AE200E659FA</string>
-											<string>88102BF412BF5AE200E659FA</string>
 											<string>88102C1912BF5D1200E659FA</string>
 											<string>88102C1A12BF5D1200E659FA</string>
-											<string>88102C9B12BF6C7800E659FA</string>
-											<string>88102CD312BF712400E659FA</string>
 											<string>88102CD412BF712400E659FA</string>
-											<string>88102CE212BF90DF00E659FA</string>
-											<string>88102CE312BF90DF00E659FA</string>
-											<string>88102CE712BF918500E659FA</string>
-											<string>88102CE812BF918500E659FA</string>
+											<string>88102CF012BF94F700E659FA</string>
+											<string>88102CF512BF94F700E659FA</string>
+											<string>88102D0E12BF98BB00E659FA</string>
+											<string>88102D1112BF98BB00E659FA</string>
+											<string>88102D1212BF98BB00E659FA</string>
+											<string>88102D1912BF99AA00E659FA</string>
+											<string>88102D1D12BF9AB300E659FA</string>
+											<string>88102D2212BF9B3300E659FA</string>
+											<string>88102D2312BF9B3300E659FA</string>
+											<string>88102D3512BF9CB500E659FA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -547,9 +551,9 @@
 	<array>
 		<string>88102BFD12BF5B0B00E659FA</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>88AC665B12BF3F4100803A1C</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/TwitterTabbedTest.xcodeproj</string>
+		<string>88AC665B12BF3F4100803A1C</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
@@ -568,12 +572,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TwitterEngineInstance.m</string>
+								<string>DirectMessagesView.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -590,8 +596,6 @@
 							<string>151pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -644,7 +648,7 @@
 			<key>WindowToolGUID</key>
 			<string>88AC665B12BF3F4100803A1C</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
