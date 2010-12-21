@@ -31,4 +31,9 @@
 }
 
 
+-(NSString *)sentTo {
+	return [contents objectForKey:@"recipient_screen_name"];
+}
+
+
 @end

@@ -15,9 +15,11 @@
 	IBOutlet UITableView *tableView;
 	IBOutlet UITextField *textField;
 	IBOutlet UITextField *userName;
+	BOOL dmsReceived;
 	
 	SA_OAuthTwitterEngine *_engine;
 	NSMutableArray *_messages;
+	NSMutableArray *_sentMessages;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *tableView;

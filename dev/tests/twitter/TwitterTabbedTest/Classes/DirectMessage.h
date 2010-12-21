@@ -15,5 +15,6 @@
 
 -(NSString*)message;
 -(NSString*)author;
+-(NSString*)sentTo;
 
 @end
