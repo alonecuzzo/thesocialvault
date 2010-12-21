@@ -97,8 +97,45 @@
 		[interactedAuthors addObject:[dm sentTo]];
 	}
 	
+	_messageDict = [[NSMutableDictionary alloc] init];
 	
-	NSLog(@"here's our set: %@", interactedAuthors);
+	for(NSString *author in interactedAuthors)
+	{
+		//compare the current author to authors in messages & sent messages arrays
+		//go through messages array
+		NSMutableArray *currentContents = [[NSMutableArray alloc] init];
+		
+		for(DirectMessage *dm in _messages)
+		{
+			if([author isEqualToString:[dm author]]){
+				//NSLog(@"dict: %@", [dm author]);
+				[currentContents addObject:dm];
+				//NSLog(@"adding to cc of messages for author %@: %@", [dm author], [dm message]);
+				//NSLog(@"identical count: %d", [currentContents count]);
+			}
+		}
+		
+		for(DirectMessage *dm in _sentMessages)
+		{
+			if([author isEqualToString:[dm sentTo]]){
+				[currentContents addObject:dm];
+			}
+		}
+		
+		[_messageDict setValue:currentContents forKey:author];
+		
+		[currentContents release];
+		
+		//if there's a match, pull all of the messages and put them in a temp array to be added to a key in the dictionary
+		
+	}
+	
+	NSLog(@"message dictionary: %@", _messageDict);
+	
+	
+	//now need to group messages by author into a master array, or something like that :p
+	
+	//NSLog(@"here's our set: %@", interactedAuthors);
 
 	
 	//we'll need to order the list by date as well...

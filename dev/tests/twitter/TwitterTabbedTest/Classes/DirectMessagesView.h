@@ -20,6 +20,7 @@
 	SA_OAuthTwitterEngine *_engine;
 	NSMutableArray *_messages;
 	NSMutableArray *_sentMessages;
+	NSMutableDictionary *_messageDict;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *tableView;

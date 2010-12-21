@@ -35,5 +35,9 @@
 	return [contents objectForKey:@"recipient_screen_name"];
 }
 
+-(NSDictionary *)dict {
+	return contents;
+}
+
 
 @end

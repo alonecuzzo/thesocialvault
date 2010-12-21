@@ -16,5 +16,6 @@
 -(NSString*)message;
 -(NSString*)author;
 -(NSString*)sentTo;
+-(NSDictionary*)dict;
 
 @end
