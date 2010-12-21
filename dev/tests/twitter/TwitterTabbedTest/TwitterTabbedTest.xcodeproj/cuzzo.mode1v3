@@ -278,7 +278,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -321,7 +321,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DirectMessagesView.m</string>
+								<string>TwitterMainFeed.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,32 +329,33 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>DirectMessagesView.m</string>
+										<string>TwitterMainFeed.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>88102DB512BFB64D00E659FA</string>
+										<string>88102DFE12C09F3600E659FA</string>
 										<key>history</key>
 										<array>
 											<string>88AC66CE12BF425900803A1C</string>
 											<string>88AC66E012BF434100803A1C</string>
-											<string>88102D4E12BFA39B00E659FA</string>
 											<string>88102D5512BFA5CF00E659FA</string>
-											<string>88102D5612BFA5CF00E659FA</string>
-											<string>88102D5912BFA5CF00E659FA</string>
-											<string>88102D7E12BFA86000E659FA</string>
-											<string>88102D8512BFADCC00E659FA</string>
-											<string>88102DA012BFB20000E659FA</string>
 											<string>88102DA512BFB5C300E659FA</string>
-											<string>88102DA612BFB5C300E659FA</string>
 											<string>88102DA712BFB5C300E659FA</string>
-											<string>88102DA812BFB5C300E659FA</string>
-											<string>88102DAA12BFB5C300E659FA</string>
-											<string>88102DAB12BFB5C300E659FA</string>
-											<string>88102DAC12BFB5C300E659FA</string>
-											<string>88102DB312BFB64D00E659FA</string>
-											<string>88102DB412BFB64D00E659FA</string>
-											<string>88102D7D12BFA86000E659FA</string>
+											<string>88102DBA12C0982F00E659FA</string>
+											<string>88102DE712C09E3100E659FA</string>
+											<string>88102DE912C09E3100E659FA</string>
+											<string>88102DEC12C09E3100E659FA</string>
+											<string>88102DED12C09E3100E659FA</string>
+											<string>88102DEE12C09E3100E659FA</string>
+											<string>88102DEF12C09E3100E659FA</string>
+											<string>88102DF012C09E3100E659FA</string>
+											<string>88102DF412C09E7300E659FA</string>
+											<string>88102DF512C09E7300E659FA</string>
+											<string>88102DF912C09F3600E659FA</string>
+											<string>88102DFA12C09F3600E659FA</string>
+											<string>88102DFB12C09F3600E659FA</string>
+											<string>88102DFC12C09F3600E659FA</string>
+											<string>88102DFD12C09F3600E659FA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

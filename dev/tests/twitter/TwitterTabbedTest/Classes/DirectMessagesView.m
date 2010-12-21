@@ -25,27 +25,34 @@
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
+//- (void)viewDidLoad {
+//	
+//    [super viewDidLoad];
+//}
+
+
+-(void)viewDidAppear:(BOOL)animated {
 	
 	//NSLog(@"%@",[[TwitterEngineInstance sharedInstance:self] getEngine:self]);
 	
 	if(_engine){
-		[_engine release];
-	}
+		[_engine setDelegate:self];
+		return;
+	}	
+	
 	
 	_engine = [[TwitterEngineInstance sharedInstance:self] getEngine:self];
 	
 	UIViewController *controller = [SA_OAuthTwitterController controllerToEnterCredentialsWithTwitterEngine: _engine delegate: self];
 	
 	if (controller){
-		NSLog(@"calling the modal view");
 		[self presentModalViewController: controller animated: YES];
 	} else {
 		_messages = [[NSMutableArray alloc] init];
 		[self refreshMessages:nil];
 	}	
 	
-    [super viewDidLoad];
+	
 }
 
 
@@ -83,6 +90,7 @@
 	
 	return [_messages count];
 }
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	

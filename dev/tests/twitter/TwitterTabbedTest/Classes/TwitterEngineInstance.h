@@ -18,5 +18,6 @@
 @property (nonatomic, retain) SA_OAuthTwitterEngine *myEngine;
 
 +(TwitterEngineInstance*)sharedInstance:(NSObject*)myDelegate;
+-(void)setDelegate:(id)delegate;
 
 @end

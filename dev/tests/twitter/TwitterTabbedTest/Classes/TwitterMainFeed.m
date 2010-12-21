@@ -85,7 +85,10 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-	if(_engine) return;
+	if(_engine){
+		[_engine setDelegate:self];
+		return;
+	}
 	
 	_engine = [[TwitterEngineInstance sharedInstance:self] myEngine];
 	

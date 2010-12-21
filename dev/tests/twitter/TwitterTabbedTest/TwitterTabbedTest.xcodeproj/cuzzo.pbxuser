@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* TwitterTabbedTestAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1112, 550}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 550}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 497}";
 		};
@@ -11,7 +11,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1965, 1144}}";
 			sepNavSelRange = "{614, 86}";
-			sepNavVisRange = "{1421, 958}";
+			sepNavVisRange = "{1419, 960}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* TwitterTabbedTest */ = {
@@ -389,6 +389,45 @@
 			88102DB312BFB64D00E659FA /* PBXTextBookmark */ = 88102DB312BFB64D00E659FA /* PBXTextBookmark */;
 			88102DB412BFB64D00E659FA /* PBXTextBookmark */ = 88102DB412BFB64D00E659FA /* PBXTextBookmark */;
 			88102DB512BFB64D00E659FA /* PBXTextBookmark */ = 88102DB512BFB64D00E659FA /* PBXTextBookmark */;
+			88102DB612C0982F00E659FA /* PBXTextBookmark */ = 88102DB612C0982F00E659FA /* PBXTextBookmark */;
+			88102DB712C0982F00E659FA /* PBXTextBookmark */ = 88102DB712C0982F00E659FA /* PBXTextBookmark */;
+			88102DB812C0982F00E659FA /* PBXTextBookmark */ = 88102DB812C0982F00E659FA /* PBXTextBookmark */;
+			88102DB912C0982F00E659FA /* PBXTextBookmark */ = 88102DB912C0982F00E659FA /* PBXTextBookmark */;
+			88102DBA12C0982F00E659FA /* PBXTextBookmark */ = 88102DBA12C0982F00E659FA /* PBXTextBookmark */;
+			88102DBB12C0982F00E659FA /* PBXTextBookmark */ = 88102DBB12C0982F00E659FA /* PBXTextBookmark */;
+			88102DBC12C0982F00E659FA /* PBXTextBookmark */ = 88102DBC12C0982F00E659FA /* PBXTextBookmark */;
+			88102DC112C098A600E659FA /* PBXTextBookmark */ = 88102DC112C098A600E659FA /* PBXTextBookmark */;
+			88102DC212C098A600E659FA /* PBXTextBookmark */ = 88102DC212C098A600E659FA /* PBXTextBookmark */;
+			88102DC312C098A600E659FA /* PBXTextBookmark */ = 88102DC312C098A600E659FA /* PBXTextBookmark */;
+			88102DC412C098A600E659FA /* PBXTextBookmark */ = 88102DC412C098A600E659FA /* PBXTextBookmark */;
+			88102DC512C098A600E659FA /* PBXTextBookmark */ = 88102DC512C098A600E659FA /* PBXTextBookmark */;
+			88102DC612C098D900E659FA /* PBXTextBookmark */ = 88102DC612C098D900E659FA /* PBXTextBookmark */;
+			88102DC912C0996C00E659FA /* PBXTextBookmark */ = 88102DC912C0996C00E659FA /* PBXTextBookmark */;
+			88102DCA12C0996C00E659FA /* PBXTextBookmark */ = 88102DCA12C0996C00E659FA /* PBXTextBookmark */;
+			88102DCB12C0996C00E659FA /* PBXTextBookmark */ = 88102DCB12C0996C00E659FA /* PBXTextBookmark */;
+			88102DE612C09E3100E659FA /* PBXTextBookmark */ = 88102DE612C09E3100E659FA /* PBXTextBookmark */;
+			88102DE712C09E3100E659FA /* PBXTextBookmark */ = 88102DE712C09E3100E659FA /* PBXTextBookmark */;
+			88102DE812C09E3100E659FA /* PBXTextBookmark */ = 88102DE812C09E3100E659FA /* PBXTextBookmark */;
+			88102DE912C09E3100E659FA /* PBXTextBookmark */ = 88102DE912C09E3100E659FA /* PBXTextBookmark */;
+			88102DEA12C09E3100E659FA /* PBXTextBookmark */ = 88102DEA12C09E3100E659FA /* PBXTextBookmark */;
+			88102DEB12C09E3100E659FA /* PBXTextBookmark */ = 88102DEB12C09E3100E659FA /* PBXTextBookmark */;
+			88102DEC12C09E3100E659FA /* PBXTextBookmark */ = 88102DEC12C09E3100E659FA /* PBXTextBookmark */;
+			88102DED12C09E3100E659FA /* PBXTextBookmark */ = 88102DED12C09E3100E659FA /* PBXTextBookmark */;
+			88102DEE12C09E3100E659FA /* PBXTextBookmark */ = 88102DEE12C09E3100E659FA /* PBXTextBookmark */;
+			88102DEF12C09E3100E659FA /* PBXTextBookmark */ = 88102DEF12C09E3100E659FA /* PBXTextBookmark */;
+			88102DF012C09E3100E659FA /* PBXTextBookmark */ = 88102DF012C09E3100E659FA /* PBXTextBookmark */;
+			88102DF112C09E3100E659FA /* PBXTextBookmark */ = 88102DF112C09E3100E659FA /* PBXTextBookmark */;
+			88102DF412C09E7300E659FA /* PBXTextBookmark */ = 88102DF412C09E7300E659FA /* PBXTextBookmark */;
+			88102DF512C09E7300E659FA /* PBXTextBookmark */ = 88102DF512C09E7300E659FA /* PBXTextBookmark */;
+			88102DF612C09E7300E659FA /* PBXTextBookmark */ = 88102DF612C09E7300E659FA /* PBXTextBookmark */;
+			88102DF712C09E7300E659FA /* PBXTextBookmark */ = 88102DF712C09E7300E659FA /* PBXTextBookmark */;
+			88102DF812C09E8B00E659FA /* PBXTextBookmark */ = 88102DF812C09E8B00E659FA /* PBXTextBookmark */;
+			88102DF912C09F3600E659FA /* PBXTextBookmark */ = 88102DF912C09F3600E659FA /* PBXTextBookmark */;
+			88102DFA12C09F3600E659FA /* PBXTextBookmark */ = 88102DFA12C09F3600E659FA /* PBXTextBookmark */;
+			88102DFB12C09F3600E659FA /* PBXTextBookmark */ = 88102DFB12C09F3600E659FA /* PBXTextBookmark */;
+			88102DFC12C09F3600E659FA /* PBXTextBookmark */ = 88102DFC12C09F3600E659FA /* PBXTextBookmark */;
+			88102DFD12C09F3600E659FA /* PBXTextBookmark */ = 88102DFD12C09F3600E659FA /* PBXTextBookmark */;
+			88102DFE12C09F3600E659FA /* PBXTextBookmark */ = 88102DFE12C09F3600E659FA /* PBXTextBookmark */;
 			88AC66CC12BF425900803A1C = 88AC66CC12BF425900803A1C /* PBXTextBookmark */;
 			88AC66CD12BF425900803A1C = 88AC66CD12BF425900803A1C /* PBXTextBookmark */;
 			88AC66CE12BF425900803A1C = 88AC66CE12BF425900803A1C /* PBXTextBookmark */;
@@ -440,16 +479,16 @@
 	};
 	88102B7D12BF466300E659FA /* DirectMessagesView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1025, 550}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 527}}";
 			sepNavSelRange = "{653, 0}";
 			sepNavVisRange = "{0, 735}";
 		};
 	};
 	88102B7E12BF466300E659FA /* DirectMessagesView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1768}}";
-			sepNavSelRange = "{990, 0}";
-			sepNavVisRange = "{602, 1170}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1872}}";
+			sepNavSelRange = "{958, 55}";
+			sepNavVisRange = "{448, 956}";
 		};
 	};
 	88102B8312BF466F00E659FA /* PBXTextBookmark */ = {
@@ -491,7 +530,7 @@
 	};
 	88102B9812BF47E900E659FA /* Tweet.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1112, 550}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 550}}";
 			sepNavSelRange = "{277, 0}";
 			sepNavVisRange = "{0, 278}";
 		};
@@ -506,15 +545,15 @@
 	88102B9E12BF4AA000E659FA /* TwitterEngineInstance.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1025, 527}}";
-			sepNavSelRange = "{340, 0}";
-			sepNavVisRange = "{0, 477}";
+			sepNavSelRange = "{503, 0}";
+			sepNavVisRange = "{0, 510}";
 		};
 	};
 	88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1025, 819}}";
-			sepNavSelRange = "{741, 0}";
-			sepNavVisRange = "{386, 957}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 858}}";
+			sepNavSelRange = "{1055, 0}";
+			sepNavVisRange = "{555, 735}";
 		};
 	};
 	88102BE812BF5AC700E659FA /* XCBuildMessageTextBookmark */ = {
@@ -720,7 +759,7 @@
 		fRef = 88102B9E12BF4AA000E659FA /* TwitterEngineInstance.h */;
 		name = "TwitterEngineInstance.h: 23";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 510;
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 0;
@@ -759,7 +798,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 90";
 		rLen = 0;
-		rLoc = 2213;
+		rLoc = 2249;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 1769;
@@ -769,7 +808,7 @@
 		fRef = 88102B9E12BF4AA000E659FA /* TwitterEngineInstance.h */;
 		name = "TwitterEngineInstance.h: 23";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 510;
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 0;
@@ -849,7 +888,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 90";
 		rLen = 0;
-		rLoc = 2213;
+		rLoc = 2249;
 		rType = 0;
 		vrLen = 1333;
 		vrLoc = 1673;
@@ -859,7 +898,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 97";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1416;
 		vrLoc = 1675;
@@ -869,7 +908,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 97";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1508;
 		vrLoc = 1675;
@@ -909,7 +948,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 97";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1508;
 		vrLoc = 1675;
@@ -919,7 +958,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 90";
 		rLen = 0;
-		rLoc = 2213;
+		rLoc = 2249;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 1675;
@@ -929,7 +968,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 97";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 1675;
@@ -939,7 +978,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 97";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 1675;
@@ -979,7 +1018,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 97";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1506;
 		vrLoc = 1675;
@@ -989,7 +1028,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 97";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1508;
 		vrLoc = 1675;
@@ -999,7 +1038,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 1675;
@@ -1019,7 +1058,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 46";
 		rLen = 0;
-		rLoc = 971;
+		rLoc = 1059;
 		rType = 0;
 		vrLen = 901;
 		vrLoc = 149;
@@ -1029,7 +1068,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1506;
 		vrLoc = 1675;
@@ -1039,7 +1078,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1429;
 		vrLoc = 1675;
@@ -1049,7 +1088,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1431;
 		vrLoc = 1675;
@@ -1069,7 +1108,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1511;
 		vrLoc = 1345;
@@ -1099,7 +1138,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1503;
 		vrLoc = 1522;
@@ -1149,7 +1188,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 57";
 		rLen = 0;
-		rLoc = 971;
+		rLoc = 1059;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 321;
@@ -1159,7 +1198,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 57";
 		rLen = 0;
-		rLoc = 971;
+		rLoc = 1059;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 321;
@@ -1169,7 +1208,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1532;
 		vrLoc = 1520;
@@ -1179,7 +1218,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1535;
 		vrLoc = 1523;
@@ -1189,7 +1228,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1533;
 		vrLoc = 1523;
@@ -1199,7 +1238,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1535;
 		vrLoc = 1523;
@@ -1288,7 +1327,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 268;
@@ -1308,7 +1347,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 68";
 		rLen = 0;
-		rLoc = 1336;
+		rLoc = 1278;
 		rType = 0;
 		vrLen = 986;
 		vrLoc = 53;
@@ -1318,7 +1357,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 68";
 		rLen = 0;
-		rLoc = 1336;
+		rLoc = 1278;
 		rType = 0;
 		vrLen = 986;
 		vrLoc = 53;
@@ -1338,7 +1377,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 44";
 		rLen = 0;
-		rLoc = 971;
+		rLoc = 1059;
 		rType = 0;
 		vrLen = 807;
 		vrLoc = 321;
@@ -1368,7 +1407,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 90";
 		rLen = 0;
-		rLoc = 2213;
+		rLoc = 2249;
 		rType = 0;
 		vrLen = 1431;
 		vrLoc = 1675;
@@ -1378,7 +1417,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 98";
 		rLen = 0;
-		rLoc = 2278;
+		rLoc = 2314;
 		rType = 0;
 		vrLen = 1380;
 		vrLoc = 1675;
@@ -1408,7 +1447,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 100";
 		rLen = 0;
-		rLoc = 2307;
+		rLoc = 2343;
 		rType = 0;
 		vrLen = 1472;
 		vrLoc = 1676;
@@ -1636,7 +1675,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 56";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1058;
 		vrLoc = 299;
@@ -1686,7 +1725,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 29";
 		rLen = 0;
-		rLoc = 1333;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 7;
@@ -1696,7 +1735,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 29";
 		rLen = 0;
-		rLoc = 815;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 7;
@@ -1706,7 +1745,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 29";
 		rLen = 0;
-		rLoc = 815;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 7;
@@ -1726,7 +1765,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 49";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 532;
@@ -1736,7 +1775,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 59";
 		rLen = 0;
-		rLoc = 1317;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 386;
@@ -1746,7 +1785,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 50";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 906;
 		vrLoc = 555;
@@ -1756,7 +1795,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 54";
 		rLen = 0;
-		rLoc = 1158;
+		rLoc = 1224;
 		rType = 0;
 		vrLen = 855;
 		vrLoc = 532;
@@ -1766,7 +1805,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 47";
 		rLen = 9;
-		rLoc = 997;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 855;
 		vrLoc = 532;
@@ -1776,7 +1815,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 49";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 532;
@@ -1786,7 +1825,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 49";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 532;
@@ -1873,14 +1912,14 @@
 	};
 	88102CEB12BF920900E659FA /* DirectMessage.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1112, 550}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 550}}";
 			sepNavSelRange = "{279, 0}";
 			sepNavVisRange = "{0, 294}";
 		};
 	};
 	88102CEC12BF920900E659FA /* DirectMessage.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1112, 550}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 527}}";
 			sepNavSelRange = "{503, 0}";
 			sepNavVisRange = "{0, 513}";
 		};
@@ -1940,7 +1979,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 49";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 841;
 		vrLoc = 467;
@@ -1950,7 +1989,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 29";
 		rLen = 0;
-		rLoc = 815;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1043;
 		vrLoc = 32;
@@ -1979,7 +2018,7 @@
 		isa = PBXTextBookmark;
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 88";
-		rLen = 423;
+		rLen = 459;
 		rLoc = 2190;
 		rType = 0;
 		vrLen = 1327;
@@ -1989,7 +2028,7 @@
 		isa = PBXTextBookmark;
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 88";
-		rLen = 423;
+		rLen = 459;
 		rLoc = 2190;
 		rType = 0;
 		vrLen = 1327;
@@ -2010,7 +2049,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 44";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1019;
 		vrLoc = 651;
@@ -2020,7 +2059,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 42";
 		rLen = 0;
-		rLoc = 1302;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 505;
@@ -2040,7 +2079,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 41";
 		rLen = 0;
-		rLoc = 1266;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 505;
@@ -2050,7 +2089,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 41";
 		rLen = 0;
-		rLoc = 1266;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1058;
 		vrLoc = 505;
@@ -2060,7 +2099,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 34";
 		rLen = 0;
-		rLoc = 994;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 7;
@@ -2100,7 +2139,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 42";
 		rLen = 0;
-		rLoc = 1302;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 915;
 		vrLoc = 651;
@@ -2110,7 +2149,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 49";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 842;
 		vrLoc = 466;
@@ -2120,7 +2159,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 49";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 922;
 		vrLoc = 386;
@@ -2130,7 +2169,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 49";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 299;
@@ -2150,7 +2189,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 90";
 		rLen = 0;
-		rLoc = 2265;
+		rLoc = 2301;
 		rType = 0;
 		vrLen = 1127;
 		vrLoc = 3428;
@@ -2190,7 +2229,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 42";
 		rLen = 0;
-		rLoc = 1302;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 649;
@@ -2200,7 +2239,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 56";
 		rLen = 0;
-		rLoc = 2068;
+		rLoc = 2108;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 649;
@@ -2210,7 +2249,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 50";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 1949;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 649;
@@ -2240,7 +2279,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 55";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2050;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 632;
@@ -2250,7 +2289,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 48";
 		rLen = 0;
-		rLoc = 1364;
+		rLoc = 1404;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 750;
@@ -2280,7 +2319,7 @@
 		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
 		name = "TwitterMainFeed.m: 103";
 		rLen = 813;
-		rLoc = 2617;
+		rLoc = 2653;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 828;
@@ -2290,7 +2329,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 52";
 		rLen = 0;
-		rLoc = 1805;
+		rLoc = 1845;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 944;
@@ -2300,7 +2339,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 53";
 		rLen = 0;
-		rLoc = 1505;
+		rLoc = 1545;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 944;
@@ -2330,7 +2369,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 56";
 		rLen = 0;
-		rLoc = 1771;
+		rLoc = 1811;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 944;
@@ -2340,7 +2379,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 60";
 		rLen = 0;
-		rLoc = 1640;
+		rLoc = 1680;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 944;
@@ -2350,7 +2389,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 59";
 		rLen = 0;
-		rLoc = 1595;
+		rLoc = 1635;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 944;
@@ -2360,7 +2399,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 49";
 		rLen = 0;
-		rLoc = 1461;
+		rLoc = 1501;
 		rType = 0;
 		vrLen = 1143;
 		vrLoc = 877;
@@ -2370,7 +2409,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 90";
 		rLen = 0;
-		rLoc = 2765;
+		rLoc = 2806;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 1674;
@@ -2381,7 +2420,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 56;
+		rLoc = 63;
 		rType = 1;
 	};
 	88102D3612BF9CB500E659FA /* PBXTextBookmark */ = {
@@ -2389,7 +2428,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 55";
 		rLen = 0;
-		rLoc = 1596;
+		rLoc = 1636;
 		rType = 0;
 		vrLen = 1073;
 		vrLoc = 970;
@@ -2410,7 +2449,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 100;
+		rLoc = 108;
 		rType = 1;
 	};
 	88102D3912BF9DCE00E659FA /* PBXTextBookmark */ = {
@@ -2418,7 +2457,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 91";
 		rLen = 0;
-		rLoc = 2720;
+		rLoc = 2761;
 		rType = 0;
 		vrLen = 306;
 		vrLoc = 2311;
@@ -2458,7 +2497,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 55";
 		rLen = 0;
-		rLoc = 1596;
+		rLoc = 1636;
 		rType = 0;
 		vrLen = 1083;
 		vrLoc = 1901;
@@ -2468,7 +2507,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 93";
 		rLen = 0;
-		rLoc = 2789;
+		rLoc = 2830;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 1805;
@@ -2478,7 +2517,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 93";
 		rLen = 0;
-		rLoc = 2859;
+		rLoc = 2900;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 1804;
@@ -2488,7 +2527,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 93";
 		rLen = 0;
-		rLoc = 2859;
+		rLoc = 2900;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 1804;
@@ -2518,7 +2557,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 49";
 		rLen = 0;
-		rLoc = 1055;
+		rLoc = 1143;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 299;
@@ -2548,7 +2587,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 93";
 		rLen = 0;
-		rLoc = 2859;
+		rLoc = 2900;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 1805;
@@ -2558,7 +2597,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 60";
 		rLen = 0;
-		rLoc = 1805;
+		rLoc = 1845;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 972;
@@ -2628,7 +2667,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 56";
 		rLen = 0;
-		rLoc = 1695;
+		rLoc = 1735;
 		rType = 0;
 		vrLen = 1084;
 		vrLoc = 1123;
@@ -2638,7 +2677,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 77";
 		rLen = 0;
-		rLoc = 2210;
+		rLoc = 2250;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 1341;
@@ -2648,7 +2687,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 56";
 		rLen = 0;
-		rLoc = 1675;
+		rLoc = 1715;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1341;
@@ -2658,7 +2697,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 60";
 		rLen = 0;
-		rLoc = 1778;
+		rLoc = 1818;
 		rType = 0;
 		vrLen = 1160;
 		vrLoc = 1341;
@@ -2668,7 +2707,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 73";
 		rLen = 0;
-		rLoc = 2068;
+		rLoc = 2108;
 		rType = 0;
 		vrLen = 1113;
 		vrLoc = 1341;
@@ -2698,7 +2737,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 73";
 		rLen = 52;
-		rLoc = 2016;
+		rLoc = 2056;
 		rType = 0;
 		vrLen = 1074;
 		vrLoc = 970;
@@ -2708,7 +2747,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 58";
 		rLen = 0;
-		rLoc = 1771;
+		rLoc = 1811;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 903;
@@ -2718,7 +2757,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 97";
 		rLen = 0;
-		rLoc = 2720;
+		rLoc = 2761;
 		rType = 0;
 		vrLen = 200;
 		vrLoc = 2075;
@@ -2728,7 +2767,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 54";
 		rLen = 0;
-		rLoc = 1546;
+		rLoc = 1586;
 		rType = 0;
 		vrLen = 1143;
 		vrLoc = 903;
@@ -2738,7 +2777,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 58";
 		rLen = 0;
-		rLoc = 1719;
+		rLoc = 1759;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 903;
@@ -2758,7 +2797,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 58";
 		rLen = 0;
-		rLoc = 1719;
+		rLoc = 1759;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 970;
@@ -2798,7 +2837,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 58";
 		rLen = 0;
-		rLoc = 1719;
+		rLoc = 1759;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 970;
@@ -2808,7 +2847,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 32";
 		rLen = 0;
-		rLoc = 881;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1154;
 		vrLoc = 602;
@@ -2818,7 +2857,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 33";
 		rLen = 0;
-		rLoc = 914;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 445;
@@ -2868,7 +2907,7 @@
 		fRef = 88AC667C12BF3F7000803A1C /* MGTwitterEngine.h */;
 		name = "MGTwitterEngine.h: 120";
 		rLen = 24;
-		rLoc = 5062;
+		rLoc = 5096;
 		rType = 0;
 		vrLen = 2136;
 		vrLoc = 4630;
@@ -2897,7 +2936,7 @@
 		isa = PBXTextBookmark;
 		fRef = 88102D8A12BFADCC00E659FA /* MGTwitterEngine.m */;
 		rLen = 22;
-		rLoc = 22777;
+		rLoc = 22839;
 		rType = 0;
 	};
 	88102D8A12BFADCC00E659FA /* MGTwitterEngine.m */ = {
@@ -2907,9 +2946,9 @@
 		path = "/Users/cuzzo/Downloads/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m";
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 21853}}";
-			sepNavSelRange = "{2843, 55}";
-			sepNavVisRange = "{3186, 784}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 21723}}";
+			sepNavSelRange = "{3538, 0}";
+			sepNavVisRange = "{2802, 1083}";
 		};
 	};
 	88102D8B12BFADCC00E659FA /* PBXTextBookmark */ = {
@@ -2917,7 +2956,7 @@
 		fRef = 88AC667D12BF3F7000803A1C /* MGTwitterEngine.m */;
 		name = "MGTwitterEngine.m: 740";
 		rLen = 0;
-		rLoc = 22880;
+		rLoc = 22942;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 21626;
@@ -2927,8 +2966,8 @@
 		comments = "'engine' undeclared (first use in this function)";
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 32;
+		rLen = 0;
+		rLoc = 28;
 		rType = 1;
 	};
 	88102D9112BFB19100E659FA /* PBXTextBookmark */ = {
@@ -2936,7 +2975,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 33";
 		rLen = 0;
-		rLoc = 898;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 776;
@@ -2946,7 +2985,7 @@
 		fRef = 88102D8A12BFADCC00E659FA /* MGTwitterEngine.m */;
 		name = "MGTwitterEngine.m: 739";
 		rLen = 0;
-		rLoc = 22766;
+		rLoc = 22828;
 		rType = 0;
 		vrLen = 1279;
 		vrLoc = 21657;
@@ -2956,7 +2995,7 @@
 		fRef = 88102D8A12BFADCC00E659FA /* MGTwitterEngine.m */;
 		name = "MGTwitterEngine.m: 740";
 		rLen = 0;
-		rLoc = 22880;
+		rLoc = 22942;
 		rType = 0;
 		vrLen = 1611;
 		vrLoc = 21626;
@@ -2966,7 +3005,7 @@
 		fRef = 88102D8A12BFADCC00E659FA /* MGTwitterEngine.m */;
 		name = "MGTwitterEngine.m: 740";
 		rLen = 0;
-		rLoc = 22880;
+		rLoc = 22942;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 21619;
@@ -2986,7 +3025,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 52";
 		rLen = 0;
-		rLoc = 1156;
+		rLoc = 1224;
 		rType = 0;
 		vrLen = 842;
 		vrLoc = 466;
@@ -2996,7 +3035,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 33";
 		rLen = 0;
-		rLoc = 898;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 475;
 		vrLoc = 880;
@@ -3006,7 +3045,7 @@
 		fRef = 88102D8A12BFADCC00E659FA /* MGTwitterEngine.m */;
 		name = "MGTwitterEngine.m: 739";
 		rLen = 0;
-		rLoc = 22766;
+		rLoc = 22828;
 		rType = 0;
 		vrLen = 1279;
 		vrLoc = 21657;
@@ -3016,7 +3055,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 52";
 		rLen = 0;
-		rLoc = 1156;
+		rLoc = 1224;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 532;
@@ -3056,7 +3095,7 @@
 		fRef = 88AC667C12BF3F7000803A1C /* MGTwitterEngine.h */;
 		name = "MGTwitterEngine.h: 120";
 		rLen = 24;
-		rLoc = 5062;
+		rLoc = 5096;
 		rType = 0;
 		vrLen = 1717;
 		vrLoc = 5611;
@@ -3116,7 +3155,7 @@
 		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
 		name = "TwitterEngineInstance.m: 52";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1224;
 		rType = 0;
 		vrLen = 954;
 		vrLoc = 386;
@@ -3146,10 +3185,400 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 36";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 602;
+	};
+	88102DB612C0982F00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 36";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1170;
+		vrLoc = 602;
+	};
+	88102DB712C0982F00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102D8A12BFADCC00E659FA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 57";
+		rLen = 0;
+		rLoc = 1520;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
+	};
+	88102DB812C0982F00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC667C12BF3F7000803A1C /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 15";
+		rLen = 55;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 1551;
+		vrLoc = 810;
+	};
+	88102DB912C0982F00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102CEB12BF920900E659FA /* DirectMessage.h */;
+		name = "DirectMessage.h: 17";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 294;
+		vrLoc = 0;
+	};
+	88102DBA12C0982F00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102CEC12BF920900E659FA /* DirectMessage.m */;
+		name = "DirectMessage.m: 30";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 0;
+	};
+	88102DBB12C0982F00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
+		name = "TwitterEngineInstance.m: 34";
+		rLen = 0;
+		rLoc = 741;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 534;
+	};
+	88102DBC12C0982F00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
+		name = "TwitterEngineInstance.m: 52";
+		rLen = 0;
+		rLoc = 1224;
+		rType = 0;
+		vrLen = 816;
+		vrLoc = 532;
+	};
+	88102DC112C098A600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
+		name = "TwitterEngineInstance.m: 52";
+		rLen = 0;
+		rLoc = 1224;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 189;
+	};
+	88102DC212C098A600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
+		name = "TwitterMainFeed.m: 67";
+		rLen = 22;
+		rLoc = 1531;
+		rType = 0;
+		vrLen = 1337;
+		vrLoc = 1960;
+	};
+	88102DC312C098A600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC66C612BF424500803A1C /* TwitterMainFeed.h */;
+		name = "TwitterMainFeed.h: 10";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	88102DC412C098A600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 32";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1113;
+		vrLoc = 602;
+	};
+	88102DC512C098A600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 32";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1155;
+		vrLoc = 602;
+	};
+	88102DC612C098D900E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 84";
+		rLen = 0;
+		rLoc = 2281;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 2017;
+	};
+	88102DC912C0996C00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 84";
+		rLen = 0;
+		rLoc = 2281;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 2017;
+	};
+	88102DCA12C0996C00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC667C12BF3F7000803A1C /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 15";
+		rLen = 55;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 1678;
+		vrLoc = 760;
+	};
+	88102DCB12C0996C00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
+		name = "TwitterEngineInstance.m: 53";
+		rLen = 0;
+		rLoc = 1224;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 467;
+	};
+	88102DE612C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 84";
+		rLen = 0;
+		rLoc = 2281;
+		rType = 0;
+		vrLen = 1436;
+		vrLoc = 282;
+	};
+	88102DE712C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC669E12BF3F7000803A1C /* SA_OAuthTwitterController.h */;
+		name = "SA_OAuthTwitterController.h: 14";
+		rLen = 21;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 1423;
+		vrLoc = 0;
+	};
+	88102DE812C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102D8A12BFADCC00E659FA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 9";
+		rLen = 15;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 0;
+	};
+	88102DE912C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102CEB12BF920900E659FA /* DirectMessage.h */;
+		name = "DirectMessage.h: 17";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 294;
+		vrLoc = 0;
+	};
+	88102DEA12C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9E12BF4AA000E659FA /* TwitterEngineInstance.h */;
+		name = "TwitterEngineInstance.h: 15";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 477;
+		vrLoc = 0;
+	};
+	88102DEB12C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
+		name = "TwitterEngineInstance.m: 11";
+		rLen = 0;
+		rLoc = 188;
+		rType = 0;
+		vrLen = 968;
+		vrLoc = 0;
+	};
+	88102DEC12C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9812BF47E900E659FA /* Tweet.h */;
+		name = "Tweet.h: 20";
+		rLen = 0;
+		rLoc = 277;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	88102DED12C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TwitterTabbedTestAppDelegate.h */;
+		name = "TwitterTabbedTestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	88102DEE12C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TwitterTabbedTestAppDelegate.m */;
+		name = "TwitterTabbedTestAppDelegate.m: 26";
+		rLen = 86;
+		rLoc = 614;
+		rType = 0;
+		vrLen = 960;
+		vrLoc = 1419;
+	};
+	88102DEF12C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC66C612BF424500803A1C /* TwitterMainFeed.h */;
+		name = "TwitterMainFeed.h: 10";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	88102DF012C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC66A012BF3F7000803A1C /* SA_OAuthTwitterEngine.h */;
+		name = "SA_OAuthTwitterEngine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1336;
+		vrLoc = 332;
+	};
+	88102DF112C09E3100E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC667C12BF3F7000803A1C /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 39";
+		rLen = 0;
+		rLoc = 1029;
+		rType = 0;
+		vrLen = 1455;
+		vrLoc = 312;
+	};
+	88102DF412C09E7300E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC667C12BF3F7000803A1C /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 39";
+		rLen = 0;
+		rLoc = 1029;
+		rType = 0;
+		vrLen = 1455;
+		vrLoc = 312;
+	};
+	88102DF512C09E7300E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102D8A12BFADCC00E659FA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 125";
+		rLen = 0;
+		rLoc = 3538;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 2802;
+	};
+	88102DF612C09E7300E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9E12BF4AA000E659FA /* TwitterEngineInstance.h */;
+		name = "TwitterEngineInstance.h: 15";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 477;
+		vrLoc = 0;
+	};
+	88102DF712C09E7300E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
+		name = "TwitterEngineInstance.m: 35";
+		rLen = 0;
+		rLoc = 751;
+		rType = 0;
+		vrLen = 916;
+		vrLoc = 467;
+	};
+	88102DF812C09E8B00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
+		name = "TwitterEngineInstance.m: 52";
+		rLen = 0;
+		rLoc = 1224;
+		rType = 0;
+		vrLen = 736;
+		vrLoc = 466;
+	};
+	88102DF912C09F3600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7D12BF466300E659FA /* DirectMessagesView.h */;
+		name = "DirectMessagesView.h: 25";
+		rLen = 0;
+		rLoc = 653;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 0;
+	};
+	88102DFA12C09F3600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9E12BF4AA000E659FA /* TwitterEngineInstance.h */;
+		name = "TwitterEngineInstance.h: 21";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 0;
+	};
+	88102DFB12C09F3600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B9F12BF4AA000E659FA /* TwitterEngineInstance.m */;
+		name = "TwitterEngineInstance.m: 49";
+		rLen = 0;
+		rLoc = 1055;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 555;
+	};
+	88102DFC12C09F3600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 38";
+		rLen = 55;
+		rLoc = 958;
+		rType = 0;
+		vrLen = 956;
+		vrLoc = 448;
+	};
+	88102DFD12C09F3600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
+		name = "TwitterMainFeed.m: 67";
+		rLen = 22;
+		rLoc = 1531;
+		rType = 0;
+		vrLen = 1337;
+		vrLoc = 1960;
+	};
+	88102DFE12C09F3600E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88AC66C712BF424500803A1C /* TwitterMainFeed.m */;
+		name = "TwitterMainFeed.m: 91";
+		rLen = 0;
+		rLoc = 2245;
+		rType = 0;
+		vrLen = 1253;
+		vrLoc = 1960;
 	};
 	88AC664612BF3F3300803A1C /* TwitterTabbedTest */ = {
 		isa = PBXExecutable;
@@ -3195,9 +3624,9 @@
 	};
 	88AC667C12BF3F7000803A1C /* MGTwitterEngine.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1559, 2613}}";
-			sepNavSelRange = "{5062, 24}";
-			sepNavVisRange = "{5611, 1717}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 2821}}";
+			sepNavSelRange = "{1029, 0}";
+			sepNavVisRange = "{312, 1455}";
 		};
 	};
 	88AC667D12BF3F7000803A1C /* MGTwitterEngine.m */ = {
@@ -3221,11 +3650,18 @@
 			sepNavVisRange = "{0, 816}";
 		};
 	};
+	88AC669E12BF3F7000803A1C /* SA_OAuthTwitterController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1594, 637}}";
+			sepNavSelRange = "{339, 21}";
+			sepNavVisRange = "{0, 1423}";
+		};
+	};
 	88AC66A012BF3F7000803A1C /* SA_OAuthTwitterEngine.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1363, 819}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{800, 1052}";
+			sepNavVisRange = "{332, 1336}";
 		};
 	};
 	88AC66A112BF3F7000803A1C /* SA_OAuthTwitterEngine.m */ = {
@@ -3237,16 +3673,16 @@
 	};
 	88AC66C612BF424500803A1C /* TwitterMainFeed.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1112, 527}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 550}}";
 			sepNavSelRange = "{204, 0}";
 			sepNavVisRange = "{0, 622}";
 		};
 	};
 	88AC66C712BF424500803A1C /* TwitterMainFeed.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1025, 2626}}";
-			sepNavSelRange = "{1531, 22}";
-			sepNavVisRange = "{857, 1100}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 2600}}";
+			sepNavSelRange = "{2245, 0}";
+			sepNavVisRange = "{1960, 1253}";
 		};
 	};
 	88AC66CC12BF425900803A1C /* PBXTextBookmark */ = {
