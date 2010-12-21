@@ -39,8 +39,6 @@
 		[_engine setDelegate:self];
 		return;
 	}	
-	
-	
 	_engine = [[TwitterEngineInstance sharedInstance:self] getEngine:self];
 	
 	UIViewController *controller = [SA_OAuthTwitterController controllerToEnterCredentialsWithTwitterEngine: _engine delegate: self];
@@ -51,8 +49,6 @@
 		_messages = [[NSMutableArray alloc] init];
 		[self refreshMessages:nil];
 	}	
-	
-	
 }
 
 
@@ -60,16 +56,27 @@
 	_messages = [[NSMutableArray alloc] init];
 	
 	for(NSDictionary *d in messages) {
-		NSLog(@"Direct Messages Received: %@", messages);
+		//NSLog(@"Direct Messages Received: %@", messages);
 		DirectMessage *dm = [[DirectMessage alloc] initWithMessageDictionary:d];
 		[_messages addObject:dm];
 		[dm release];
 		//NSLog(@"number of messages: %d", [_messages count]);
 	}
-	
-	
-	
+
 	[tableView reloadData];
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+	NSString *messageSelected = [_messages objectAtIndex:indexPath.row];
+	
+	NSString *msg = [NSString stringWithFormat:@"You have selected %@", messageSelected];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Message Selected"
+													message:msg delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	
+	NSLog(@"message selected: %@", [(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]);
+	[alert show];
+	[alert release];
 }
 
 
@@ -106,7 +113,7 @@
 	[cell.textLabel setNumberOfLines:7];
 	[cell.textLabel setText:[(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]];
 	
-	NSLog(@"message: %@", [(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]);
+	//NSLog(@"message: %@", [(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]);
 	
 	return cell;
 }
