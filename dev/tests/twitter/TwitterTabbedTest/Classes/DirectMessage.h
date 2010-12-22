@@ -11,7 +11,10 @@
 
 @interface DirectMessage : NSObject {
 	NSDictionary *contents;
+	BOOL isSentMessage;
 }
+
+@property BOOL isSentMessage;
 
 -(NSString*)message;
 -(NSString*)author;

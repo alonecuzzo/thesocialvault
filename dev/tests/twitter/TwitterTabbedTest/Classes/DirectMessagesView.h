@@ -12,7 +12,7 @@
 
 
 @interface DirectMessagesView : UIViewController {
-	IBOutlet UITableView *tableView;
+	IBOutlet UITableView *_tableView;
 	IBOutlet UITextField *textField;
 	IBOutlet UITextField *userName;
 	BOOL dmsReceived;
@@ -21,11 +21,13 @@
 	NSMutableArray *_messages;
 	NSMutableArray *_sentMessages;
 	NSMutableDictionary *_messageDict;
+	NSArray *_authorList;
 }
 
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, retain) IBOutlet UITableView *_tableView;
 @property (nonatomic, retain) IBOutlet UITextField *textField;
 @property (nonatomic, retain) IBOutlet UITextField *userName;
+@property (nonatomic, retain) NSArray *_authorList;
 
 -(IBAction)sendMessage:(id)sender;
 -(IBAction)refreshMessages:(id)sender;

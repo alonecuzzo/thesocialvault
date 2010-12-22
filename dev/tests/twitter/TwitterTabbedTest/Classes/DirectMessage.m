@@ -11,6 +11,8 @@
 
 @implementation DirectMessage
 
+@synthesize isSentMessage;
+
 -(id) initWithMessageDictionary:(NSDictionary *)_contents {
 	if(self = [super init]) {
 		contents = _contents;
@@ -27,11 +29,13 @@
 
 
 -(NSString *)author {
+	isSentMessage = NO;
 	return [contents objectForKey:@"sender_screen_name"];
 }
 
 
 -(NSString *)sentTo {
+	isSentMessage = YES;
 	return [contents objectForKey:@"recipient_screen_name"];
 }
 

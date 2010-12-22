@@ -12,6 +12,8 @@
 
 @implementation DirectMessagesView
 
+@synthesize _authorList;
+
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -108,10 +110,7 @@
 		for(DirectMessage *dm in _messages)
 		{
 			if([author isEqualToString:[dm author]]){
-				//NSLog(@"dict: %@", [dm author]);
 				[currentContents addObject:dm];
-				//NSLog(@"adding to cc of messages for author %@: %@", [dm author], [dm message]);
-				//NSLog(@"identical count: %d", [currentContents count]);
 			}
 		}
 		
@@ -125,24 +124,22 @@
 		[_messageDict setValue:currentContents forKey:author];
 		
 		[currentContents release];
-		
-		//if there's a match, pull all of the messages and put them in a temp array to be added to a key in the dictionary
-		
 	}
 	
-	NSLog(@"message dictionary: %@", _messageDict);
+	//NSLog(@"message dictionary: %@", _messageDict);
 	
+	NSArray *tmpArray = [[NSArray alloc] initWithArray:[[_messageDict allKeys] sortedArrayUsingSelector:@selector(compare:)]]; 
+	self._authorList = [[NSArray alloc] initWithArray:tmpArray];
+	[tmpArray release];
 	
-	//now need to group messages by author into a master array, or something like that :p
-	
-	//NSLog(@"here's our set: %@", interactedAuthors);
-
+	NSLog(@"author list: %d", [self._authorList count]);
 	
 	//we'll need to order the list by date as well...
 	
 	
 	//this needs to scroll through both arrays and sort them properly for populating the main message table
-	[tableView reloadData];
+	//NSLog(@"first author list item: %@", [_authorList objectAtIndex:1]);
+	[_tableView reloadData];
 }
 
 
@@ -156,9 +153,29 @@
 	//we want the detail table to show itself here with the items in the message dictionary, so it can populate with all of those items...
 	
 	
-	NSLog(@"message selected: %@", [(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]);
+	//NSLog(@"message selected: %@", [(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]);
 	//[alert show];
 	//[alert release];
+}
+
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	//NSLog(@"header title: %@", [self._authorList objectAtIndex:section]);
+	return [self._authorList objectAtIndex:section];
+}
+
+// Customize the number of sections in the table view.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	//NSLog(@"authorlist count from number of sections: %d", [self._authorList count]);
+	return [self._authorList count];
+}
+
+// Customize the number of rows in the table view.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	NSString *aut = [_authorList objectAtIndex:section];
+	NSMutableArray *messSection = [_messageDict objectForKey:aut];
+	//NSLog(@"number of rows in section: %d", [messSection count]);
+	return [messSection count];
 }
 
 
@@ -170,17 +187,15 @@
 -(NSString *)refreshMessages:(id)sender {
 	dmsReceived = NO;
 	[_engine getDirectMessagesSinceID:1 startingAtPage:1];
-	//[_engine getSentDirectMessagesSinceID:1 startingAtPage:1];
-	//NSLog(@"number of messages: %d", [_messages count]);
 }
 
 
 #pragma mark UITableViewDataSource Methods 
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	
-	return [_messages count];
-}
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//	
+//	return [_messages count];
+//}
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -194,8 +209,31 @@
 		[cell setBackgroundColor:[UIColor clearColor]];
 	}
 	
+	//NSString *year = [self.years objectAtIndex:[indexPath section]];
+	//NSArray *movieSection = [self.movieTitles objectForKey:year];
+	
+	NSLog(@"building table");
+	
+	//cell.textLabel.text = [movieSection objectAtIndex:[indexPath row]];
+	//NSLog(@"dictionary: %@", _messageDict);
+	NSString *athr = [[NSString alloc] initWithString:[_authorList objectAtIndex:indexPath.section]];
+	NSArray *mssgSection = [[NSArray alloc] initWithArray:[_messageDict objectForKey:athr]];
+	
 	[cell.textLabel setNumberOfLines:7];
-	[cell.textLabel setText:[(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]];
+	
+	NSString *myLabel = [[NSString alloc] init];
+	
+	if ([[mssgSection objectAtIndex:indexPath.row] isSentMessage] == YES) {
+		myLabel = [[mssgSection objectAtIndex:indexPath.row] message];
+	} else {
+		myLabel = [[mssgSection objectAtIndex:indexPath.row] message];
+	}
+	
+	NSLog(@"current message section: %@", mssgSection);
+	NSLog(@"writing to cell: %@", myLabel);
+	
+	[cell.textLabel setText:myLabel];
+	[myLabel release];
 	
 	//NSLog(@"message: %@", [(DirectMessage*)[_messages objectAtIndex:indexPath.row] message]);
 	
@@ -203,7 +241,6 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-	
 	return 150;
 }
 
