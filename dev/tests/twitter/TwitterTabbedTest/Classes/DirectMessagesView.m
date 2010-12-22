@@ -13,6 +13,7 @@
 @implementation DirectMessagesView
 
 @synthesize _authorList;
+@synthesize _tableView;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -55,7 +56,6 @@
 
 
 - (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)connectionIdentifier {
-	
 	if(!dmsReceived) {
 		//populate messages, and then send request for sent messages
 		_messages = [[NSMutableArray alloc] init];
@@ -87,6 +87,7 @@
 
 
 -(void)sortMessages{
+	NSLog(@"calling sorted messages!");
 	//first need to make a list of unique id's that is in my box, on the sent messages and received messages side
 	//mutable sets are apparently forced to contain all unique values so im using that
 	NSMutableSet *interactedAuthors = [[NSMutableSet alloc] init];
@@ -132,10 +133,9 @@
 	self._authorList = [[NSArray alloc] initWithArray:tmpArray];
 	[tmpArray release];
 	
-	NSLog(@"author list: %d", [self._authorList count]);
+	//NSLog(@"author list: %d", [self._authorList count]);
 	
 	//we'll need to order the list by date as well...
-	
 	
 	//this needs to scroll through both arrays and sort them properly for populating the main message table
 	//NSLog(@"first author list item: %@", [_authorList objectAtIndex:1]);
@@ -166,7 +166,7 @@
 
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-	//NSLog(@"authorlist count from number of sections: %d", [self._authorList count]);
+	NSLog(@"authorlist count from number of sections: %d", [self._authorList count]);
 	return [self._authorList count];
 }
 
@@ -201,7 +201,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	
 	NSString *identifier = @"cell";
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+	UITableViewCell *cell = [_tableView dequeueReusableCellWithIdentifier:identifier];
 	
 	if(!cell) {
 		
@@ -212,7 +212,7 @@
 	//NSString *year = [self.years objectAtIndex:[indexPath section]];
 	//NSArray *movieSection = [self.movieTitles objectForKey:year];
 	
-	NSLog(@"building table");
+	//NSLog(@"building table");
 	
 	//cell.textLabel.text = [movieSection objectAtIndex:[indexPath row]];
 	//NSLog(@"dictionary: %@", _messageDict);
@@ -221,16 +221,16 @@
 	
 	[cell.textLabel setNumberOfLines:7];
 	
-	NSString *myLabel = [[NSString alloc] init];
+	NSString *myLabel = [[NSString alloc] initWithString:[[mssgSection objectAtIndex:indexPath.row] message]];
 	
-	if ([[mssgSection objectAtIndex:indexPath.row] isSentMessage] == YES) {
-		myLabel = [[mssgSection objectAtIndex:indexPath.row] message];
-	} else {
-		myLabel = [[mssgSection objectAtIndex:indexPath.row] message];
-	}
+	//if ([[mssgSection objectAtIndex:indexPath.row] isSentMessage] == YES) {
+//		myLabel = [[mssgSection objectAtIndex:indexPath.row] message];
+//	} else {
+//		myLabel = [[mssgSection objectAtIndex:indexPath.row] message];
+//	}
 	
-	NSLog(@"current message section: %@", mssgSection);
-	NSLog(@"writing to cell: %@", myLabel);
+	//NSLog(@"current message section: %@", mssgSection);
+	//NSLog(@"writing to cell: %@", myLabel);
 	
 	[cell.textLabel setText:myLabel];
 	[myLabel release];

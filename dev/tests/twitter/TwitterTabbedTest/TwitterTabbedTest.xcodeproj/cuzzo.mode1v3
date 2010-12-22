@@ -333,7 +333,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>881031C712C1D4E100E659FA</string>
+										<string>881031DD12C1D76400E659FA</string>
 										<key>history</key>
 										<array>
 											<string>88102DA512BFB5C300E659FA</string>
@@ -552,12 +552,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>881031DE12C1D76400E659FA</string>
 		<string>8810303012C1B80E00E659FA</string>
 		<string>8810302712C1B7D000E659FA</string>
 		<string>88AC665B12BF3F4100803A1C</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/cuzzo/Sites/tumble4twitface/dev/tests/twitter/TwitterTabbedTest/TwitterTabbedTest.xcodeproj</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>

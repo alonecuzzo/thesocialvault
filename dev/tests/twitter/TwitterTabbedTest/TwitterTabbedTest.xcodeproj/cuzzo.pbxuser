@@ -44,7 +44,7 @@
 			1D6058900D05DD3D006BFB54 /* TwitterTabbedTest */,
 		);
 		breakpoints = (
-			8810304512C1BA2C00E659FA /* DirectMessagesView.m:135 */,
+			8810304512C1BA2C00E659FA /* DirectMessagesView.m:136 */,
 			8810317412C1CE1C00E659FA /* DirectMessagesView.m:237 */,
 			8810318312C1CF3C00E659FA /* DirectMessagesView.m:170 */,
 			8810318512C1CF3F00E659FA /* DirectMessagesView.m:164 */,
@@ -343,6 +343,11 @@
 			881031C512C1D4E100E659FA /* PBXTextBookmark */ = 881031C512C1D4E100E659FA /* PBXTextBookmark */;
 			881031C612C1D4E100E659FA /* PBXTextBookmark */ = 881031C612C1D4E100E659FA /* PBXTextBookmark */;
 			881031C712C1D4E100E659FA /* PBXTextBookmark */ = 881031C712C1D4E100E659FA /* PBXTextBookmark */;
+			881031CC12C1D5CA00E659FA /* PBXTextBookmark */ = 881031CC12C1D5CA00E659FA /* PBXTextBookmark */;
+			881031D112C1D64F00E659FA /* PBXTextBookmark */ = 881031D112C1D64F00E659FA /* PBXTextBookmark */;
+			881031D412C1D67300E659FA /* PBXTextBookmark */ = 881031D412C1D67300E659FA /* PBXTextBookmark */;
+			881031D712C1D6D400E659FA /* PBXTextBookmark */ = 881031D712C1D6D400E659FA /* PBXTextBookmark */;
+			881031DD12C1D76400E659FA /* PBXTextBookmark */ = 881031DD12C1D76400E659FA /* PBXTextBookmark */;
 			88AC66CE12BF425900803A1C = 88AC66CE12BF425900803A1C /* PBXTextBookmark */;
 			88AC66E012BF434100803A1C = 88AC66E012BF434100803A1C /* PBXTextBookmark */;
 		};
@@ -366,9 +371,9 @@
 	};
 	88102B7E12BF466300E659FA /* DirectMessagesView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1025, 3445}}";
-			sepNavSelRange = "{7041, 0}";
-			sepNavVisRange = "{5069, 1124}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 3549}}";
+			sepNavSelRange = "{5129, 0}";
+			sepNavVisRange = "{4761, 1213}";
 			sepNavWindowFrame = "{{38, 261}, {743, 591}}";
 		};
 	};
@@ -591,7 +596,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 38";
 		rLen = 0;
-		rLoc = 1418;
+		rLoc = 1442;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 448;
@@ -641,7 +646,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 38";
 		rLen = 0;
-		rLoc = 1418;
+		rLoc = 1442;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 445;
@@ -651,7 +656,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 38";
 		rLen = 0;
-		rLoc = 1418;
+		rLoc = 1442;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 0;
@@ -661,7 +666,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 74";
 		rLen = 0;
-		rLoc = 4143;
+		rLoc = 4202;
 		rType = 0;
 		vrLen = 1199;
 		vrLoc = 1399;
@@ -671,7 +676,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 77";
 		rLen = 0;
-		rLoc = 4673;
+		rLoc = 4732;
 		rType = 0;
 		vrLen = 1305;
 		vrLoc = 1396;
@@ -681,7 +686,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 78";
 		rLen = 0;
-		rLoc = 4580;
+		rLoc = 4639;
 		rType = 0;
 		vrLen = 1405;
 		vrLoc = 1396;
@@ -704,7 +709,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 82";
 		rLen = 0;
-		rLoc = 4705;
+		rLoc = 4764;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 2002;
@@ -803,7 +808,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 81";
 		rLen = 0;
-		rLoc = 4685;
+		rLoc = 4744;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 1749;
@@ -833,7 +838,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 62";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -843,7 +848,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 61";
 		rLen = 0;
-		rLoc = 2028;
+		rLoc = 2050;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 877;
@@ -873,7 +878,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 52";
 		rLen = 0;
-		rLoc = 1420;
+		rLoc = 1444;
 		rType = 0;
 		vrLen = 1039;
 		vrLoc = 877;
@@ -883,7 +888,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 81";
 		rLen = 0;
-		rLoc = 2297;
+		rLoc = 2319;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 1396;
@@ -933,7 +938,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 88";
 		rLen = 0;
-		rLoc = 3807;
+		rLoc = 3868;
 		rType = 0;
 		vrLen = 1199;
 		vrLoc = 1824;
@@ -943,7 +948,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 95";
 		rLen = 0;
-		rLoc = 3807;
+		rLoc = 3868;
 		rType = 0;
 		vrLen = 1007;
 		vrLoc = 1824;
@@ -963,7 +968,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 90";
 		rLen = 0;
-		rLoc = 2609;
+		rLoc = 2668;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 1824;
@@ -983,7 +988,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 96";
 		rLen = 0;
-		rLoc = 3754;
+		rLoc = 3815;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 1841;
@@ -1003,7 +1008,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 94";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2754;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 1841;
@@ -1023,7 +1028,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 97";
 		rLen = 0;
-		rLoc = 3754;
+		rLoc = 3815;
 		rType = 0;
 		vrLen = 1252;
 		vrLoc = 1872;
@@ -1043,7 +1048,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 95";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2754;
 		rType = 0;
 		vrLen = 1372;
 		vrLoc = 2295;
@@ -1063,7 +1068,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 97";
 		rLen = 0;
-		rLoc = 3677;
+		rLoc = 3736;
 		rType = 0;
 		vrLen = 1367;
 		vrLoc = 2300;
@@ -1083,7 +1088,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 97";
 		rLen = 0;
-		rLoc = 3677;
+		rLoc = 3736;
 		rType = 0;
 		vrLen = 1359;
 		vrLoc = 2300;
@@ -1103,7 +1108,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 97";
 		rLen = 0;
-		rLoc = 3677;
+		rLoc = 3736;
 		rType = 0;
 		vrLen = 1361;
 		vrLoc = 2300;
@@ -1173,7 +1178,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 97";
 		rLen = 0;
-		rLoc = 3677;
+		rLoc = 3736;
 		rType = 0;
 		vrLen = 1361;
 		vrLoc = 2300;
@@ -1183,7 +1188,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 97";
 		rLen = 0;
-		rLoc = 2786;
+		rLoc = 2845;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 2323;
@@ -1203,7 +1208,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 101";
 		rLen = 0;
-		rLoc = 3677;
+		rLoc = 3736;
 		rType = 0;
 		vrLen = 1477;
 		vrLoc = 2323;
@@ -1233,7 +1238,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 100";
 		rLen = 0;
-		rLoc = 2791;
+		rLoc = 2850;
 		rType = 0;
 		vrLen = 1139;
 		vrLoc = 2218;
@@ -1243,7 +1248,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 100";
 		rLen = 0;
-		rLoc = 2841;
+		rLoc = 2900;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 2218;
@@ -1263,7 +1268,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 102";
 		rLen = 0;
-		rLoc = 3615;
+		rLoc = 3674;
 		rType = 0;
 		vrLen = 1270;
 		vrLoc = 2298;
@@ -1283,7 +1288,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 100";
 		rLen = 0;
-		rLoc = 2841;
+		rLoc = 2900;
 		rType = 0;
 		vrLen = 1176;
 		vrLoc = 1962;
@@ -1303,7 +1308,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 105";
 		rLen = 0;
-		rLoc = 3435;
+		rLoc = 3494;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 2052;
@@ -1323,7 +1328,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 104";
 		rLen = 0;
-		rLoc = 3432;
+		rLoc = 3491;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 2052;
@@ -1353,7 +1358,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 123";
 		rLen = 0;
-		rLoc = 3432;
+		rLoc = 3491;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 2584;
@@ -1363,7 +1368,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 122";
 		rLen = 0;
-		rLoc = 3400;
+		rLoc = 3459;
 		rType = 0;
 		vrLen = 939;
 		vrLoc = 2761;
@@ -1373,7 +1378,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 112";
 		rLen = 0;
-		rLoc = 3192;
+		rLoc = 3251;
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 2766;
@@ -1383,7 +1388,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 112";
 		rLen = 0;
-		rLoc = 3192;
+		rLoc = 3251;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 2818;
@@ -1393,7 +1398,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 113";
 		rLen = 0;
-		rLoc = 3192;
+		rLoc = 3251;
 		rType = 0;
 		vrLen = 1029;
 		vrLoc = 2864;
@@ -1433,7 +1438,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 113";
 		rLen = 0;
-		rLoc = 3192;
+		rLoc = 3251;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 2302;
@@ -1443,7 +1448,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 113";
 		rLen = 0;
-		rLoc = 3192;
+		rLoc = 3251;
 		rType = 0;
 		vrLen = 1119;
 		vrLoc = 2434;
@@ -1453,7 +1458,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 110";
 		rLen = 0;
-		rLoc = 3111;
+		rLoc = 3170;
 		rType = 0;
 		vrLen = 1093;
 		vrLoc = 2582;
@@ -1463,7 +1468,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 110";
 		rLen = 0;
-		rLoc = 3111;
+		rLoc = 3170;
 		rType = 0;
 		vrLen = 1093;
 		vrLoc = 2582;
@@ -1473,7 +1478,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 111";
 		rLen = 0;
-		rLoc = 3156;
+		rLoc = 3215;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 2323;
@@ -1483,7 +1488,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 110";
 		rLen = 0;
-		rLoc = 3154;
+		rLoc = 3213;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 2582;
@@ -1493,7 +1498,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 114";
 		rLen = 0;
-		rLoc = 3192;
+		rLoc = 3251;
 		rType = 0;
 		vrLen = 1111;
 		vrLoc = 2582;
@@ -1503,7 +1508,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 114";
 		rLen = 0;
-		rLoc = 3192;
+		rLoc = 3251;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 2623;
@@ -1513,7 +1518,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 133";
 		rLen = 0;
-		rLoc = 3441;
+		rLoc = 3500;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 2867;
@@ -1533,7 +1538,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 129";
 		rLen = 0;
-		rLoc = 3677;
+		rLoc = 3736;
 		rType = 0;
 		vrLen = 852;
 		vrLoc = 2671;
@@ -1543,7 +1548,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 130";
 		rLen = 0;
-		rLoc = 3754;
+		rLoc = 3815;
 		rType = 0;
 		vrLen = 1275;
 		vrLoc = 3176;
@@ -1554,7 +1559,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 131;
+		rLoc = 132;
 		rType = 1;
 	};
 	88102FC112C0D7D900E659FA /* PBXTextBookmark */ = {
@@ -1562,7 +1567,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 129";
 		rLen = 0;
-		rLoc = 3676;
+		rLoc = 3735;
 		rType = 0;
 		vrLen = 524;
 		vrLoc = 3311;
@@ -1572,7 +1577,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 162";
 		rLen = 0;
-		rLoc = 5179;
+		rLoc = 5236;
 		rType = 0;
 		vrLen = 1250;
 		vrLoc = 3835;
@@ -1582,7 +1587,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 156";
 		rLen = 0;
-		rLoc = 4892;
+		rLoc = 4951;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 3713;
@@ -1592,7 +1597,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 157";
 		rLen = 0;
-		rLoc = 4942;
+		rLoc = 5001;
 		rType = 0;
 		vrLen = 1347;
 		vrLoc = 3738;
@@ -1602,7 +1607,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 157";
 		rLen = 0;
-		rLoc = 4901;
+		rLoc = 4960;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 3741;
@@ -1612,7 +1617,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 189";
 		rLen = 129;
-		rLoc = 5820;
+		rLoc = 5877;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 4445;
@@ -1622,7 +1627,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 197";
 		rLen = 13;
-		rLoc = 7372;
+		rLoc = 7508;
 		rType = 0;
 		vrLen = 1143;
 		vrLoc = 5249;
@@ -1632,7 +1637,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 170";
 		rLen = 0;
-		rLoc = 5515;
+		rLoc = 5572;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 4302;
@@ -1642,7 +1647,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 131";
 		rLen = 0;
-		rLoc = 3754;
+		rLoc = 3815;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 2867;
@@ -1652,7 +1657,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 137";
 		rLen = 0;
-		rLoc = 3990;
+		rLoc = 4049;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 2974;
@@ -1662,7 +1667,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 158";
 		rLen = 0;
-		rLoc = 4940;
+		rLoc = 4999;
 		rType = 0;
 		vrLen = 1400;
 		vrLoc = 3948;
@@ -1672,7 +1677,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 215";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 5522;
@@ -1742,7 +1747,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 215";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 5524;
@@ -1752,7 +1757,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 227";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 5664;
@@ -1762,7 +1767,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 227";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 4640;
@@ -1772,7 +1777,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 129";
 		rLen = 0;
-		rLoc = 3676;
+		rLoc = 3735;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 3779;
@@ -1801,7 +1806,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 137";
 		rLen = 0;
-		rLoc = 3990;
+		rLoc = 4049;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 3086;
@@ -1811,7 +1816,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 137";
 		rLen = 0;
-		rLoc = 3990;
+		rLoc = 4049;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 3176;
@@ -1821,7 +1826,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 210";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1058;
 		vrLoc = 2818;
@@ -1831,7 +1836,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 151";
 		rLen = 0;
-		rLoc = 4586;
+		rLoc = 4645;
 		rType = 0;
 		vrLen = 1312;
 		vrLoc = 5185;
@@ -1841,7 +1846,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 5588;
@@ -1851,7 +1856,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 5588;
@@ -1861,7 +1866,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1252;
 		vrLoc = 5708;
@@ -1871,7 +1876,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1236;
 		vrLoc = 5724;
@@ -1881,7 +1886,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 2302;
@@ -1891,12 +1896,12 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 2434;
 	};
-	8810304512C1BA2C00E659FA /* DirectMessagesView.m:135 */ = {
+	8810304512C1BA2C00E659FA /* DirectMessagesView.m:136 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -1908,9 +1913,9 @@
 		functionName = "-sortMessages";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 135;
+		lineNumber = 136;
 		location = TwitterTabbedTest;
-		modificationTime = 314692716.96348;
+		modificationTime = 314693363.46458;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1919,7 +1924,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 3172;
@@ -1929,7 +1934,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 3179;
@@ -1939,7 +1944,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 3179;
@@ -1949,7 +1954,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 3179;
@@ -1959,7 +1964,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 3179;
@@ -1969,7 +1974,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 3306;
@@ -1979,7 +1984,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 214";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1320;
 		vrLoc = 3311;
@@ -1989,7 +1994,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 227";
 		rLen = 0;
-		rLoc = 7385;
+		rLoc = 7521;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 3318;
@@ -2019,7 +2024,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 144";
 		rLen = 0;
-		rLoc = 4202;
+		rLoc = 4261;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 3378;
@@ -2029,7 +2034,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 195";
 		rLen = 0;
-		rLoc = 6057;
+		rLoc = 6114;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 5185;
@@ -2039,7 +2044,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 131";
 		rLen = 0;
-		rLoc = 3736;
+		rLoc = 3797;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 3306;
@@ -2049,7 +2054,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 131";
 		rLen = 0;
-		rLoc = 3736;
+		rLoc = 3797;
 		rType = 0;
 		vrLen = 1324;
 		vrLoc = 3315;
@@ -2069,7 +2074,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 131";
 		rLen = 0;
-		rLoc = 3736;
+		rLoc = 3797;
 		rType = 0;
 		vrLen = 1324;
 		vrLoc = 3315;
@@ -2079,7 +2084,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 131";
 		rLen = 0;
-		rLoc = 3725;
+		rLoc = 3786;
 		rType = 0;
 		vrLen = 1224;
 		vrLoc = 3131;
@@ -2089,7 +2094,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 131";
 		rLen = 0;
-		rLoc = 3725;
+		rLoc = 3786;
 		rType = 0;
 		vrLen = 1287;
 		vrLoc = 3172;
@@ -2109,7 +2114,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 209";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1317;
 		vrLoc = 5493;
@@ -2119,7 +2124,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 209";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1244;
 		vrLoc = 5600;
@@ -2129,7 +2134,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 209";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1166;
 		vrLoc = 5835;
@@ -2158,7 +2163,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 209";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 722;
 		vrLoc = 5835;
@@ -2168,7 +2173,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 208";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1413;
 		vrLoc = 5493;
@@ -2178,7 +2183,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 208";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1313;
 		vrLoc = 5600;
@@ -2188,7 +2193,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 209";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1383;
 		vrLoc = 5600;
@@ -2198,7 +2203,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 210";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 5670;
@@ -2208,7 +2213,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 210";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1329;
 		vrLoc = 5705;
@@ -2218,7 +2223,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 210";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1329;
 		vrLoc = 5705;
@@ -2248,7 +2253,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 211";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 662;
 		vrLoc = 5790;
@@ -2258,7 +2263,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 131";
 		rLen = 0;
-		rLoc = 3676;
+		rLoc = 3735;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 2890;
@@ -2289,7 +2294,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 14;
+		rLoc = 15;
 		rType = 1;
 	};
 	8810313312C1C97D00E659FA /* PBXTextBookmark */ = {
@@ -2367,7 +2372,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 211";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1362;
 		vrLoc = 5359;
@@ -2377,7 +2382,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 234";
 		rLen = 0;
-		rLoc = 7385;
+		rLoc = 7521;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 5533;
@@ -2387,7 +2392,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 212";
 		rLen = 0;
-		rLoc = 6516;
+		rLoc = 6576;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 5594;
@@ -2397,7 +2402,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 133";
 		rLen = 0;
-		rLoc = 3639;
+		rLoc = 3698;
 		rType = 0;
 		vrLen = 1244;
 		vrLoc = 3202;
@@ -2407,7 +2412,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 216";
 		rLen = 0;
-		rLoc = 6626;
+		rLoc = 6686;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 5718;
@@ -2417,7 +2422,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 216";
 		rLen = 0;
-		rLoc = 6626;
+		rLoc = 6686;
 		rType = 0;
 		vrLen = 1403;
 		vrLoc = 5825;
@@ -2427,7 +2432,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 216";
 		rLen = 0;
-		rLoc = 6626;
+		rLoc = 6686;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 5858;
@@ -2446,7 +2451,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 218";
 		rLen = 0;
-		rLoc = 6814;
+		rLoc = 6874;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 6248;
@@ -2465,7 +2470,7 @@
 		ignoreCount = 0;
 		lineNumber = 237;
 		location = TwitterTabbedTest;
-		modificationTime = 314692716.96382;
+		modificationTime = 314693363.464988;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2474,7 +2479,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 216";
 		rLen = 0;
-		rLoc = 6626;
+		rLoc = 6686;
 		rType = 0;
 		vrLen = 1429;
 		vrLoc = 5959;
@@ -2484,7 +2489,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 216";
 		rLen = 0;
-		rLoc = 6626;
+		rLoc = 6686;
 		rType = 0;
 		vrLen = 1294;
 		vrLoc = 6110;
@@ -2494,7 +2499,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 215";
 		rLen = 0;
-		rLoc = 6605;
+		rLoc = 6665;
 		rType = 0;
 		vrLen = 1315;
 		vrLoc = 6060;
@@ -2504,7 +2509,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 218";
 		rLen = 0;
-		rLoc = 6814;
+		rLoc = 6874;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 5959;
@@ -2523,7 +2528,7 @@
 		ignoreCount = 0;
 		lineNumber = 170;
 		location = TwitterTabbedTest;
-		modificationTime = 314692716.963967;
+		modificationTime = 314693363.465122;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2541,7 +2546,7 @@
 		ignoreCount = 0;
 		lineNumber = 164;
 		location = TwitterTabbedTest;
-		modificationTime = 314692716.964095;
+		modificationTime = 314693363.465302;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2550,7 +2555,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 168";
 		rLen = 0;
-		rLoc = 5168;
+		rLoc = 5225;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 4440;
@@ -2560,7 +2565,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 168";
 		rLen = 0;
-		rLoc = 5168;
+		rLoc = 5225;
 		rType = 0;
 		vrLen = 1111;
 		vrLoc = 4578;
@@ -2570,7 +2575,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 169";
 		rLen = 0;
-		rLoc = 5168;
+		rLoc = 5225;
 		rType = 0;
 		vrLen = 1194;
 		vrLoc = 4582;
@@ -2580,7 +2585,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 48";
 		rLen = 0;
-		rLoc = 825;
+		rLoc = 849;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 557;
@@ -2590,7 +2595,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 48";
 		rLen = 0;
-		rLoc = 825;
+		rLoc = 849;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 557;
@@ -2600,7 +2605,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 168";
 		rLen = 0;
-		rLoc = 5124;
+		rLoc = 5181;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 4181;
@@ -2610,7 +2615,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 168";
 		rLen = 0;
-		rLoc = 5124;
+		rLoc = 5181;
 		rType = 0;
 		vrLen = 1360;
 		vrLoc = 4272;
@@ -2620,7 +2625,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 216";
 		rLen = 0;
-		rLoc = 6587;
+		rLoc = 6647;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 6206;
@@ -2630,7 +2635,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 163";
 		rLen = 0;
-		rLoc = 4892;
+		rLoc = 4951;
 		rType = 0;
 		vrLen = 1264;
 		vrLoc = 4440;
@@ -2640,7 +2645,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 177";
 		rLen = 0;
-		rLoc = 5515;
+		rLoc = 5572;
 		rType = 0;
 		vrLen = 1224;
 		vrLoc = 4724;
@@ -2650,7 +2655,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 232";
 		rLen = 0;
-		rLoc = 7217;
+		rLoc = 7353;
 		rType = 0;
 		vrLen = 1354;
 		vrLoc = 6091;
@@ -2660,7 +2665,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 232";
 		rLen = 0;
-		rLoc = 7176;
+		rLoc = 7310;
 		rType = 0;
 		vrLen = 1311;
 		vrLoc = 6189;
@@ -2670,7 +2675,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 220";
 		rLen = 0;
-		rLoc = 6814;
+		rLoc = 6874;
 		rType = 0;
 		vrLen = 767;
 		vrLoc = 4819;
@@ -2690,7 +2695,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 204";
 		rLen = 9;
-		rLoc = 6118;
+		rLoc = 6176;
 		rType = 0;
 		vrLen = 1253;
 		vrLoc = 5652;
@@ -2700,7 +2705,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 204";
 		rLen = 0;
-		rLoc = 6119;
+		rLoc = 6177;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 5333;
@@ -2710,7 +2715,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 183";
 		rLen = 0;
-		rLoc = 5613;
+		rLoc = 5670;
 		rType = 0;
 		vrLen = 1097;
 		vrLoc = 5387;
@@ -2720,7 +2725,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 240";
 		rLen = 0;
-		rLoc = 7372;
+		rLoc = 7508;
 		rType = 0;
 		vrLen = 1305;
 		vrLoc = 6349;
@@ -2739,8 +2744,8 @@
 		isa = PBXTextBookmark;
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 229";
-		rLen = 7;
-		rLoc = 7109;
+		rLen = 0;
+		rLoc = 7029;
 		rType = 0;
 		vrLen = 1344;
 		vrLoc = 6294;
@@ -2750,10 +2755,60 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 227";
 		rLen = 0;
-		rLoc = 7041;
+		rLoc = 7029;
 		rType = 0;
 		vrLen = 1124;
 		vrLoc = 5069;
+	};
+	881031CC12C1D5CA00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 205";
+		rLen = 0;
+		rLoc = 6185;
+		rType = 0;
+		vrLen = 1311;
+		vrLoc = 6200;
+	};
+	881031D112C1D64F00E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 59";
+		rLen = 0;
+		rLoc = 1543;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 1021;
+	};
+	881031D412C1D67300E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 90";
+		rLen = 0;
+		rLoc = 2403;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 1946;
+	};
+	881031D712C1D6D400E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 169";
+		rLen = 0;
+		rLoc = 5129;
+		rType = 0;
+		vrLen = 1236;
+		vrLoc = 4640;
+	};
+	881031DD12C1D76400E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 169";
+		rLen = 0;
+		rLoc = 5129;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 4761;
 	};
 	88AC664612BF3F3300803A1C /* TwitterTabbedTest */ = {
 		isa = PBXExecutable;
@@ -2762,7 +2817,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
