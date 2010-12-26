@@ -223,6 +223,7 @@
 	
 	NSString *myLabel = [[NSString alloc] initWithString:[[mssgSection objectAtIndex:indexPath.row] message]];
 	
+	//this was breaking the table before... probably something to do with the BOOL value...
 	//if ([[mssgSection objectAtIndex:indexPath.row] isSentMessage] == YES) {
 //		myLabel = [[mssgSection objectAtIndex:indexPath.row] message];
 //	} else {

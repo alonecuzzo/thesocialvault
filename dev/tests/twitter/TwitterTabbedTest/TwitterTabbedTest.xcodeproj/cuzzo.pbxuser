@@ -45,7 +45,7 @@
 		);
 		breakpoints = (
 			8810304512C1BA2C00E659FA /* DirectMessagesView.m:136 */,
-			8810317412C1CE1C00E659FA /* DirectMessagesView.m:237 */,
+			8810317412C1CE1C00E659FA /* DirectMessagesView.m:238 */,
 			8810318312C1CF3C00E659FA /* DirectMessagesView.m:170 */,
 			8810318512C1CF3F00E659FA /* DirectMessagesView.m:164 */,
 		);
@@ -348,6 +348,7 @@
 			881031D412C1D67300E659FA /* PBXTextBookmark */ = 881031D412C1D67300E659FA /* PBXTextBookmark */;
 			881031D712C1D6D400E659FA /* PBXTextBookmark */ = 881031D712C1D6D400E659FA /* PBXTextBookmark */;
 			881031DD12C1D76400E659FA /* PBXTextBookmark */ = 881031DD12C1D76400E659FA /* PBXTextBookmark */;
+			881031DF12C1D80200E659FA /* PBXTextBookmark */ = 881031DF12C1D80200E659FA /* PBXTextBookmark */;
 			88AC66CE12BF425900803A1C = 88AC66CE12BF425900803A1C /* PBXTextBookmark */;
 			88AC66E012BF434100803A1C = 88AC66E012BF434100803A1C /* PBXTextBookmark */;
 		};
@@ -371,7 +372,7 @@
 	};
 	88102B7E12BF466300E659FA /* DirectMessagesView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1025, 3549}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 3562}}";
 			sepNavSelRange = "{5129, 0}";
 			sepNavVisRange = "{4761, 1213}";
 			sepNavWindowFrame = "{{38, 261}, {743, 591}}";
@@ -1627,7 +1628,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 197";
 		rLen = 13;
-		rLoc = 7508;
+		rLoc = 7597;
 		rType = 0;
 		vrLen = 1143;
 		vrLoc = 5249;
@@ -1915,7 +1916,7 @@
 		ignoreCount = 0;
 		lineNumber = 136;
 		location = TwitterTabbedTest;
-		modificationTime = 314693363.46458;
+		modificationTime = 314693477.079799;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1994,7 +1995,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 227";
 		rLen = 0;
-		rLoc = 7521;
+		rLoc = 7610;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 3318;
@@ -2382,7 +2383,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 234";
 		rLen = 0;
-		rLoc = 7521;
+		rLoc = 7610;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 5533;
@@ -2443,7 +2444,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 225;
+		rLoc = 226;
 		rType = 1;
 	};
 	8810317312C1CE0D00E659FA /* PBXTextBookmark */ = {
@@ -2456,7 +2457,7 @@
 		vrLen = 716;
 		vrLoc = 6248;
 	};
-	8810317412C1CE1C00E659FA /* DirectMessagesView.m:237 */ = {
+	8810317412C1CE1C00E659FA /* DirectMessagesView.m:238 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -2468,9 +2469,9 @@
 		functionName = "-tableView:cellForRowAtIndexPath:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 237;
+		lineNumber = 238;
 		location = TwitterTabbedTest;
-		modificationTime = 314693363.464988;
+		modificationTime = 314693477.080206;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2528,7 +2529,7 @@
 		ignoreCount = 0;
 		lineNumber = 170;
 		location = TwitterTabbedTest;
-		modificationTime = 314693363.465122;
+		modificationTime = 314693477.080391;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2546,7 +2547,7 @@
 		ignoreCount = 0;
 		lineNumber = 164;
 		location = TwitterTabbedTest;
-		modificationTime = 314693363.465302;
+		modificationTime = 314693477.080568;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2655,7 +2656,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 232";
 		rLen = 0;
-		rLoc = 7353;
+		rLoc = 7442;
 		rType = 0;
 		vrLen = 1354;
 		vrLoc = 6091;
@@ -2665,7 +2666,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 232";
 		rLen = 0;
-		rLoc = 7310;
+		rLoc = 7399;
 		rType = 0;
 		vrLen = 1311;
 		vrLoc = 6189;
@@ -2725,7 +2726,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 240";
 		rLen = 0;
-		rLoc = 7508;
+		rLoc = 7597;
 		rType = 0;
 		vrLen = 1305;
 		vrLoc = 6349;
@@ -2745,7 +2746,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 229";
 		rLen = 0;
-		rLoc = 7029;
+		rLoc = 7118;
 		rType = 0;
 		vrLen = 1344;
 		vrLoc = 6294;
@@ -2755,7 +2756,7 @@
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 227";
 		rLen = 0;
-		rLoc = 7029;
+		rLoc = 7118;
 		rType = 0;
 		vrLen = 1124;
 		vrLoc = 5069;
@@ -2801,6 +2802,16 @@
 		vrLoc = 4640;
 	};
 	881031DD12C1D76400E659FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
+		name = "DirectMessagesView.m: 169";
+		rLen = 0;
+		rLoc = 5129;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 4761;
+	};
+	881031DF12C1D80200E659FA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 88102B7E12BF466300E659FA /* DirectMessagesView.m */;
 		name = "DirectMessagesView.m: 169";
