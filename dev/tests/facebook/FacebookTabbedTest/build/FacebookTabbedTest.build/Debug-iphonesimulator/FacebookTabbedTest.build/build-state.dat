@@ -1,0 +1,794 @@
+TFacebookTabbedTest
+v7
+r0
+t315131171.249749
+cCheck dependencies
+cProcessInfoPlistFile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/Info.plist FacebookTabbedTest-Info.plist
+cCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/FacebookTabbedTest.app/FBConnect.bundle ../facebook-facebook-ios-sdk-8b3c17d/sample/FBConnect.bundle
+cCpResource build/Debug-iphonesimulator/FacebookTabbedTest.app/FBDialog.bundle FBDialog.bundle
+cCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.xib
+cCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.xib
+cProcessPCH /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch.gch FacebookTabbedTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/main.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FacebookTabbedTestAppDelegate.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FacebookTabbedTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSString+SBJSON.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJSON.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonBase.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonParser.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonWriter.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBRequest.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/Facebook.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginDialog.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBDialog.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginButton.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MainFeedViewController.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MessagesViewController.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest normal i386
+cGenerateDSYMFile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app.dSYM /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest
+cTouch /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/dlfcn.h
+c000000004AB98DF40000000000000B1C
+t1253674484
+s2844
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/../facebook-facebook-ios-sdk-8b3c17d/sample/FBConnect.bundle
+c000000004D05E1820000000000000066
+t1292231042
+s102
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FBLoginButton.h
+c000000004D05E18200000000000003CB
+t1292231042
+s971
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FBLoginButton.m
+c000000004D05E18200000000000007D4
+t1292231042
+s2004
+i"FBLoginButton.h"
+i"Facebook.h"
+i<dlfcn.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FacebookTabbedTestAppDelegate.h
+c000000004D1825BE00000000000001F4
+t1293428158
+s500
+i<UIKit/UIKit.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FacebookTabbedTestAppDelegate.m
+c000000004D1825BE000000000000094F
+t1293428158
+s2383
+i"FacebookTabbedTestAppDelegate.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FirstViewController.h
+c000000004D1825BE00000000000000EF
+t1293428158
+s239
+i<UIKit/UIKit.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FirstViewController.m
+c000000004D1825BE00000000000003A0
+t1293428158
+s928
+i"FirstViewController.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.h
+c000000004D18348B0000000000000245
+t1293431947
+s581
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+i"FBLoginButton.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m
+c000000004D1847790000000000000D9F
+t1293436793
+s3487
+i"MainFeedViewController.h"
+i"FBConnect.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.xib
+c000000004D1835670000000000005BC5
+t1293432167
+s23493
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.h
+c000000004D18290200000000000000F5
+t1293428994
+s245
+i<UIKit/UIKit.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.m
+c000000004D1829020000000000000538
+t1293428994
+s1336
+i"MessagesViewController.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.xib
+c000000004D18290200000000000050A3
+t1293428994
+s20643
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/SecondViewController.h
+c000000004D1825BE00000000000000F1
+t1293428158
+s241
+i<UIKit/UIKit.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/SecondViewController.m
+c000000004D1825BE00000000000003A3
+t1293428158
+s931
+i"SecondViewController.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/DemoApp-Info.plist
+c000000004D171CB80000000000000462
+t1293360312
+s1122
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBConnect.h
+c000000004D05E18200000000000002C2
+t1292231042
+s706
+i"Facebook.h"
+i"FBDialog.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+i"SBJSON.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.bundle
+c000000004D05E1820000000000000066
+t1292231042
+s102
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.h
+c000000004D05E1820000000000001246
+t1292231042
+s4678
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.m
+c000000004D05E182000000000000576F
+t1292231042
+s22383
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBLoginDialog.h
+c000000004D05E182000000000000056B
+t1292231042
+s1387
+i"FBDialog.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBLoginDialog.m
+c000000004D184D900000000000000BC5
+t1293438352
+s3013
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBRequest.h
+c000000004D05E1820000000000000CEA
+t1292231042
+s3306
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBRequest.m
+c000000004D05E1820000000000002C39
+t1292231042
+s11321
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Facebook.h
+c000000004D05E1820000000000000C94
+t1292231042
+s3220
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Facebook.m
+c000000004D184D2C0000000000005308
+t1293438252
+s21256
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FacebookTabbedTest_Prefix.pch
+c000000004D1825BE00000000000000CD
+t1293428158
+s205
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FirstView.xib
+c000000004D1825BE0000000000005628
+t1293428158
+s22056
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/JSON.h
+c000000004D05E18200000000000008F9
+t1292231042
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSObject+SBJSON.h
+c000000004D05E1820000000000000A01
+t1292231042
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSObject+SBJSON.m
+c000000004D05E182000000000000089E
+t1292231042
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSString+SBJSON.h
+c000000004D05E1820000000000000916
+t1292231042
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSString+SBJSON.m
+c000000004D05E182000000000000087D
+t1292231042
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJSON.h
+c000000004D05E1820000000000000AED
+t1292231042
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJSON.m
+c000000004D05E1820000000000001ABC
+t1292231042
+s6844
+i"SBJSON.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonBase.h
+c000000004D05E1820000000000000B82
+t1292231042
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonBase.m
+c000000004D05E1820000000000000AC1
+t1292231042
+s2753
+i"SBJsonBase.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonParser.h
+c000000004D05E1820000000000000C0B
+t1292231042
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonParser.m
+c000000004D05E18200000000000036D0
+t1292231042
+s14032
+i"SBJsonParser.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonWriter.h
+c000000004D05E1820000000000001140
+t1292231042
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonWriter.m
+c000000004D05E1820000000000001F26
+t1292231042
+s7974
+i"SBJsonWriter.h"
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/MainWindow.xib
+c000000004D18297700000000000067EA
+t1293429111
+s26602
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/SecondView.xib
+c000000004D1825BE0000000000005C54
+t1293428158
+s23636
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app
+t1293438371
+s340
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app.dSYM
+t1293438371
+s102
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/DemoApp-Info.plist
+t2
+s0
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FBConnect.bundle
+t1293429124
+s102
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FBDialog.bundle
+t1293429124
+s102
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest
+t1293438371
+s134584
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FirstView.nib
+t2
+s0
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/Info.plist
+t1293436430
+s954
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/MainFeedViewController.nib
+t1293432181
+s1992
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/MainWindow.nib
+t1293429124
+s1733
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/MessagesViewController.nib
+t1293429125
+s795
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/PkgInfo
+t1293436430
+s8
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/SecondView.nib
+t2
+s0
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBDialog.o
+t1293429126
+s109752
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginButton.o
+t1293429126
+s40496
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginDialog.o
+t1293438371
+s43912
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBRequest.o
+t1293429126
+s43656
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/Facebook.o
+t1293438255
+s75968
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FacebookTabbedTest.LinkFileList
+c000000004D1829840000000000000AF8
+t1293429124
+s2808
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FacebookTabbedTestAppDelegate.o
+t1293429125
+s54132
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FirstViewController.o
+t2
+s0
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MainFeedViewController.o
+t1293436886
+s55404
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MessagesViewController.o
+t1293429126
+s38324
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSObject+SBJSON.o
+t1293429126
+s8352
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSString+SBJSON.o
+t1293429126
+s8272
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJSON.o
+t1293429126
+s20140
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonBase.o
+t1293429126
+s13272
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonParser.o
+t1293429126
+s35968
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonWriter.o
+t1293429126
+s25608
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SecondViewController.o
+t2
+s0
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/main.o
+t1293429125
+s6372
+
+N/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/main.m
+c000000004D1825BE000000000000016A
+t1293428158
+s362
+i<UIKit/UIKit.h>
+
+N/var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch.gch
+t1293429125
+s15453392
+
+NFacebookTabbedTest-Info.plist
+c000000004D183937000000000000057F
+t1293433143
+s1407
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315131171#315131171#0(0"0(0#1#0"8613581696#0"0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBDialog.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121926.448992
+e315121926.713725
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBDialog.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.m315121926#315121926#0(0"0(0#0#83"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.m8616681728#2516"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginButton.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121926.500672
+e315121926.569781
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginButton.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FBLoginButton.m315121926#315121926#0(0"0(0#0#96"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FBLoginButton.m8616395200#2534"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FBLoginButton.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginButton.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginDialog.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315131171.103594
+e315131171.174039
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBLoginDialog.m315131171#315131171#0(0"0(0#0#88"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBLoginDialog.m8606197760#2526"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBLoginDialog.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBRequest.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121926.258490
+e315121926.411505
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBRequest.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBRequest.m315121926#315121926#0(0"0(0#0#84"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBRequest.m8611382752#2518"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBRequest.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/Facebook.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315131055.095327
+e315131055.205599
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/Facebook.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Facebook.m315131055#315131055#0(0"0(0#0#83"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Facebook.m8616790272#2516"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Facebook.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/Facebook.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FacebookTabbedTestAppDelegate.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FacebookTabbedTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121925.901128
+e315121925.989053
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FacebookTabbedTestAppDelegate.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FacebookTabbedTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FacebookTabbedTestAppDelegate.m315121925#315121925#0(0"0(0#0#112"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FacebookTabbedTestAppDelegate.m8618809536#2566"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FacebookTabbedTestAppDelegate.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FacebookTabbedTestAppDelegate.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FirstViewController.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MainFeedViewController.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315129685.621407
+e315129686.473918
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MainFeedViewController.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m: In function '-[MainFeedViewController fbButtonClick:]':
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:50: warning: 'MainFeedViewController' may not respond to '-logout'
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:50: warning: (Messages without a matching method signature
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:50: warning: will be assumed to return 'id' and accept
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:50: warning: '...' as arguments.)
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:52: warning: 'MainFeedViewController' may not respond to '-login'
+lSLF07#2@113"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m315129685#315129686#0(974"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m: In function '-[MainFeedViewController fbButtonClick:]':/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:50: warning: 'MainFeedViewController' may not respond to '-logout'/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:50: warning: (Messages without a matching method signature/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:50: warning: will be assumed to return 'id' and accept/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:50: warning: '...' as arguments.)/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m:52: warning: 'MainFeedViewController' may not respond to '-login'3(22@53"'MainFeedViewController' may not respond to '-logout'315129686#163#173#0(6@105"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m315129593#50#0#50#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)315129686#336#165#0(6@105"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m315129593#50#0#50#0#0"0(22@52"'MainFeedViewController' may not respond to '-login'315129686#802#172#0(6@105"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m315129593#52#0#52#0#26"'*' may not respond to '*'0(0#0#105"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m8611247296#2552"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MainFeedViewController.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MessagesViewController.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121926.646881
+e315121926.719458
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MessagesViewController.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.m315121926#315121926#0(0"0(0#0#105"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.m8616613760#2552"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/MessagesViewController.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121925.967662
+e315121926.033740
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSObject+SBJSON.m315121925#315121926#0(0"0(0#0#95"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSObject+SBJSON.m8616825952#2535"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSObject+SBJSON.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSString+SBJSON.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121925.989151
+e315121926.087725
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSString+SBJSON.m315121925#315121926#0(0"0(0#0#95"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSString+SBJSON.m8616604800#2535"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/NSString+SBJSON.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJSON.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121926.033831
+e315121926.132082
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJSON.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJSON.m315121926#315121926#0(0"0(0#0#86"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJSON.m8616216384#2517"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJSON.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonBase.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121926.087819
+e315121926.151829
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonBase.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonBase.m315121926#315121926#0(0"0(0#0#90"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonBase.m8618788928#2525"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonBase.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonParser.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121926.132187
+e315121926.285539
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonParser.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonParser.m315121926#315121926#0(0"0(0#0#92"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonParser.m8616867872#2529"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonParser.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonWriter.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121926.151919
+e315121926.258390
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonWriter.m315121926#315121926#0(0"0(0#0#92"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonWriter.m8619169152#2529"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/JSON/SBJsonWriter.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/SecondViewController.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/main.o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121925.899565
+e315121925.967573
+r1
+xCompileC
+xbuild/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/main.o
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/main.m315121925#315121925#0(0"0(0#0#79"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/main.m8619415584#2508"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -include /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/main.m -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.xib
+s315124980.612731
+e315124981.087596
+r1
+xCompileXIB
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.xib
+lSLF07#2@45"CompileXIB Classes/MainFeedViewController.xib315124980#315124981#0(0"0(0#0#107"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.xib8600305280#715"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/MainFeedViewController.nib /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MainFeedViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.xib
+s315121924.810074
+e315121925.170099
+r1
+xCompileXIB
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MessagesViewController.
+lSLF07#2@45"CompileXIB Classes/MessagesViewController.xib315121924#315121925#0(280"/* com.apple.ibtool.document.warnings *//Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MessagesViewController.1(22@117"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MessagesViewController.315121925#18446744073709551615#0#0(6@107"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.xib315121794#18446744073709551615#0#18446744073709551615#0#0"0(0#0#107"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.xib8616954848#715"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/MessagesViewController.nib /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/Classes/MessagesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FirstView.xib
+r0
+
+CCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/MainWindow.xib
+s315121924.400129
+e315121924.841004
+r1
+xCompileXIB
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib315121924#315121924#0(0"0(0#0#87"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/MainWindow.xib8619809664#683"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/MainWindow.nib /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/SecondView.xib
+r0
+
+CCopyPlistFile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/DemoApp-Info.plist DemoApp-Info.plist
+r0
+
+CCpResource build/Debug-iphonesimulator/FacebookTabbedTest.app/FBConnect.bundle ../facebook-facebook-ios-sdk-8b3c17d/sample/FBConnect.bundle
+s315121924.401147
+e315121924.433587
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FacebookTabbedTest.app/FBConnect.bundle
+x../facebook-facebook-ios-sdk-8b3c17d/sample/FBConnect.bundle
+lSLF07#2@65"Copy ../facebook-facebook-ios-sdk-8b3c17d/sample/FBConnect.bundle315121924#315121924#0(0"0(0#0#133"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/../facebook-facebook-ios-sdk-8b3c17d/sample/FBConnect.bundle8619446048#631"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/../facebook-facebook-ios-sdk-8b3c17d/sample/FBConnect.bundle /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app0#
+
+CCpResource build/Debug-iphonesimulator/FacebookTabbedTest.app/FBDialog.bundle FBDialog.bundle
+s315121924.403181
+e315121924.427108
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FacebookTabbedTest.app/FBDialog.bundle
+xFBDialog.bundle
+lSLF07#2@20"Copy FBDialog.bundle315121924#315121924#0(0"0(0#0#88"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.bundle8619074080#586"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FBDialog.bundle /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app0#
+
+CGenerateDSYMFile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app.dSYM /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest
+s315131171.207267
+e315131171.247296
+r1
+xGenerateDSYMFile
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app.dSYM
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest
+lSLF07#2@142"GenerateDSYMFile build/Debug-iphonesimulator/FacebookTabbedTest.app.dSYM build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest315131171#315131171#0(0"0(0#0#142"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest8617040672#518"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app.dSYM0#
+
+CLd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest normal i386
+s315131171.174122
+e315131171.207174
+r1
+xLd
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest
+xnormal
+xi386
+lSLF07#2@147"Link /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest315131171#315131171#0(0"0(0#0#0"8613951104#1125"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -filelist /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/Objects-normal/i386/FacebookTabbedTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/FacebookTabbedTest0#
+
+CProcessInfoPlistFile /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/Info.plist FacebookTabbedTest-Info.plist
+s315129230.252008
+e315129230.438992
+r1
+xProcessInfoPlistFile
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/Info.plist
+xFacebookTabbedTest-Info.plist
+lSLF07#2@37"Process FacebookTabbedTest-Info.plist315129230#315129230#0(0"0(0#0#102"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FacebookTabbedTest-Info.plist8619909216#614"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FacebookTabbedTest-Info.plist -genpkginfo /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app/Info.plist0#
+
+CProcessPCH /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch.gch FacebookTabbedTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s315121925.170206
+e315121925.899308
+r1
+xProcessPCH
+x/var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch.gch
+xFacebookTabbedTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile FacebookTabbedTest_Prefix.pch315121925#315121925#0(0"0(0#0#102"/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FacebookTabbedTest_Prefix.pch8615676992#2355"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-generated-files.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-own-target-headers.hmap -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-all-target-headers.hmap -iquote /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/FacebookTabbedTest-project-headers.hmap -F/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/include -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources/i386 -I/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/FacebookTabbedTest.build/Debug-iphonesimulator/FacebookTabbedTest.build/DerivedSources -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FacebookTabbedTest_Prefix.pch -o /var/folders/dQ/dQW+26+lGOywxfL3R3r9kE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookTabbedTest_Prefix-flyghlwviiqduyerxvbctzvjpybr/FacebookTabbedTest_Prefix.pch.gch0#
+
+CTouch /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app
+s315131171.247385
+e315131171.249722
+r1
+xTouch
+x/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app
+lSLF07#2@129"Touch /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app315131171#315131171#0(0"0(0#0#0"8616757536#357"    cd /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/build/Debug-iphonesimulator/FacebookTabbedTest.app0#
+

@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FacebookTabbedTestAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {750, 439}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 500}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FacebookTabbedTest */ = {
+		activeExec = 0;
+		executables = (
+			883E741C12C85D3E005571E9 /* FacebookTabbedTest */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 883E741C12C85D3E005571E9 /* FacebookTabbedTest */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FacebookTabbedTest */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FacebookTabbedTest */,
+		);
+		codeSenseManager = 883E742F12C85D55005571E9 /* Code sense */;
+		executables = (
+			883E741C12C85D3E005571E9 /* FacebookTabbedTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					572,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315129301;
+			PBXWorkspaceStateSaveDate = 315129301;
+		};
+		perUserProjectItems = {
+			883E74BB12C86A80005571E9 = 883E74BB12C86A80005571E9 /* PBXTextBookmark */;
+			883E74BC12C86A80005571E9 = 883E74BC12C86A80005571E9 /* PBXTextBookmark */;
+			883E74BD12C86A80005571E9 = 883E74BD12C86A80005571E9 /* PBXTextBookmark */;
+			883E74BE12C86A80005571E9 = 883E74BE12C86A80005571E9 /* PBXTextBookmark */;
+			883E74BF12C86A80005571E9 = 883E74BF12C86A80005571E9 /* PlistBookmark */;
+			883E74C012C86A80005571E9 = 883E74C012C86A80005571E9 /* PlistBookmark */;
+			883E74CB12C86A89005571E9 = 883E74CB12C86A89005571E9 /* PlistBookmark */;
+			883E74CC12C86A89005571E9 = 883E74CC12C86A89005571E9 /* PlistBookmark */;
+			883E74DC12C86C05005571E9 = 883E74DC12C86C05005571E9 /* PBXTextBookmark */;
+			883E74DD12C86C05005571E9 = 883E74DD12C86C05005571E9 /* PBXTextBookmark */;
+			883E74E012C86C10005571E9 = 883E74E012C86C10005571E9 /* PlistBookmark */;
+			883E74E112C86C10005571E9 = 883E74E112C86C10005571E9 /* PBXTextBookmark */;
+			883E74E212C86C10005571E9 = 883E74E212C86C10005571E9 /* PBXTextBookmark */;
+			883E74E312C86C10005571E9 = 883E74E312C86C10005571E9 /* PBXTextBookmark */;
+			883E74EC12C86DE3005571E9 = 883E74EC12C86DE3005571E9 /* PBXTextBookmark */;
+			883E74ED12C86DE3005571E9 = 883E74ED12C86DE3005571E9 /* PBXTextBookmark */;
+			883E74EE12C86DE3005571E9 = 883E74EE12C86DE3005571E9 /* PBXTextBookmark */;
+			883E74F112C86E55005571E9 = 883E74F112C86E55005571E9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 883E742E12C85D55005571E9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	883E741C12C85D3E005571E9 /* FacebookTabbedTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FacebookTabbedTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	883E742E12C85D55005571E9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	883E742F12C85D55005571E9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	883E746C12C85FED005571E9 /* FBLoginButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {750, 439}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 971}";
+		};
+	};
+	883E746D12C85FED005571E9 /* FBLoginButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {750, 871}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1039}";
+		};
+	};
+	883E747112C86055005571E9 /* MainFeedViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {750, 439}}";
+			sepNavSelRange = "{54, 0}";
+			sepNavVisRange = "{0, 581}";
+		};
+	};
+	883E747212C86055005571E9 /* MainFeedViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1885}}";
+			sepNavSelRange = "{678, 0}";
+			sepNavVisRange = "{0, 885}";
+		};
+	};
+	883E747612C86082005571E9 /* MessagesViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {750, 468}}";
+			sepNavSelRange = "{180, 0}";
+			sepNavVisRange = "{0, 245}";
+		};
+	};
+	883E747712C86082005571E9 /* MessagesViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 741}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 941}";
+		};
+	};
+	883E74BB12C86A80005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747712C86082005571E9 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 0;
+	};
+	883E74BC12C86A80005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747112C86055005571E9 /* MainFeedViewController.h */;
+		name = "MainFeedViewController.h: 27";
+		rLen = 13;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 0;
+	};
+	883E74BD12C86A80005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747612C86082005571E9 /* MessagesViewController.h */;
+		name = "MessagesViewController.h: 11";
+		rLen = 0;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 245;
+		vrLoc = 0;
+	};
+	883E74BE12C86A80005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747212C86055005571E9 /* MainFeedViewController.m */;
+		name = "MainFeedViewController.m: 43";
+		rLen = 0;
+		rLoc = 1266;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 1082;
+	};
+	883E74BF12C86A80005571E9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FacebookTabbedTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleURLTypes,
+			0,
+			CFBundleURLName,
+		);
+		name = "/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FacebookTabbedTest-Info.plist";
+		rLen = 0;
+		rLoc = 0;
+	};
+	883E74C012C86A80005571E9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FacebookTabbedTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleURLTypes,
+		);
+		name = "/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FacebookTabbedTest-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	883E74CB12C86A89005571E9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FacebookTabbedTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleURLTypes,
+		);
+		name = "/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FacebookTabbedTest-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	883E74CC12C86A89005571E9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FacebookTabbedTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleURLTypes,
+		);
+		name = "/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FacebookTabbedTest-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	883E74DC12C86C05005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No declaration of property 'facebook' found in the interface";
+		fRef = 883E747212C86055005571E9 /* MainFeedViewController.m */;
+		rLen = 1;
+		rLoc = 16;
+		rType = 1;
+	};
+	883E74DD12C86C05005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747212C86055005571E9 /* MainFeedViewController.m */;
+		name = "MainFeedViewController.m: 17";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 651;
+		vrLoc = 155;
+	};
+	883E74E012C86C10005571E9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FacebookTabbedTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleURLTypes,
+		);
+		name = "/Users/cuzzo/Sites/tumble4twitface/dev/tests/facebook/FacebookTabbedTest/FacebookTabbedTest-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	883E74E112C86C10005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747212C86055005571E9 /* MainFeedViewController.m */;
+		name = "MainFeedViewController.m: 17";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 999;
+		vrLoc = 265;
+	};
+	883E74E212C86C10005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747112C86055005571E9 /* MainFeedViewController.h */;
+		name = "MainFeedViewController.h: 27";
+		rLen = 13;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 0;
+	};
+	883E74E312C86C10005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747112C86055005571E9 /* MainFeedViewController.h */;
+		name = "MainFeedViewController.h: 25";
+		rLen = 0;
+		rLoc = 527;
+		rType = 0;
+		vrLen = 581;
+		vrLoc = 0;
+	};
+	883E74EC12C86DE3005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747112C86055005571E9 /* MainFeedViewController.h */;
+		name = "MainFeedViewController.h: 3";
+		rLen = 0;
+		rLoc = 54;
+		rType = 0;
+		vrLen = 581;
+		vrLoc = 0;
+	};
+	883E74ED12C86DE3005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747212C86055005571E9 /* MainFeedViewController.m */;
+		name = "MainFeedViewController.m: 17";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 265;
+	};
+	883E74EE12C86DE3005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747212C86055005571E9 /* MainFeedViewController.m */;
+		name = "MainFeedViewController.m: 55";
+		rLen = 0;
+		rLoc = 1448;
+		rType = 0;
+		vrLen = 626;
+		vrLoc = 1219;
+	};
+	883E74F112C86E55005571E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 883E747212C86055005571E9 /* MainFeedViewController.m */;
+		name = "MainFeedViewController.m: 26";
+		rLen = 0;
+		rLoc = 678;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 0;
+	};
+}
